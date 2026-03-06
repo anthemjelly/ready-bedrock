@@ -2,10 +2,10 @@ services:
   mc-server:
     build:
       context: .
-      dockerfile: Base.docker
+      dockerfile: base.docker
     container_name: mc-bedrock-production
     ports:
-      - "19132:19132/udp"
+      - "19133:19133/udp"
     volumes:
       - ./worlds:/data/worlds
       - ./server.properties:/data/server.properties
