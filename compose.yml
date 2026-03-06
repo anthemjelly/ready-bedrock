@@ -1,20 +1,45 @@
 services:
   mc-server:
-    build: 
+    build:
       context: .
-      dockerfile: Base.docker 
-      args:
-        UID: 10001
-        GID: 10001
+      dockerfile: Base.docker
+    container_name: mc-bedrock-production
+    user: root
     ports:
-      - "19132:19132/udp"   # MC 默認端口
+      - "19132:19132/udp"
     volumes:
-      - ./worlds:/data/worlds          # 存檔持久化（本地 ↔ 容器）
-      - ./addons:/data/resource_packs  # ✅ 你的 Addon 放在這裡，實時同步
+      - ./worlds:/data/worlds
       - ./addons:/data/behavior_packs
+      - ./addons:/data/resource_packs
       - ./server.properties:/data/server.properties
+      - ./backups:/data/backups
     environment:
+      - UID=10001
+      - GID=10001
       - EULA=TRUE
-      - ONLINE_MODE=FALSE
-      - ALLOW_CHEATS=TRUE
+      - ONLINE_MODE=TRUE
+      - ALLOW_CHEATS=FALSE
+      - SERVER_NAME=基岩版正式伺服器
+      - MAX_PLAYERS=20
+      - DIFFICULTY=normal
+      - LEVEL_NAME=ProductionWorld
+      - ALLOW_LIST=FALSE
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 6G
+        reservations:
+          cpus: '1'
+          memory: 1G
+    healthcheck:
+      test: ["CMD", "mc-monitor", "status", "--host", "127.0.0.1", "--port", "19132"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
