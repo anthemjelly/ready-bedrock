@@ -1,0 +1,20 @@
+services:
+  mc-server:
+    build: 
+      context: .
+      dockerfile: Base.docker 
+      args:
+        UID: 10001
+        GID: 10001
+    ports:
+      - "19132:19132/udp"   # MC 默認端口
+    volumes:
+      - ./worlds:/data/worlds          # 存檔持久化（本地 ↔ 容器）
+      - ./addons:/data/resource_packs  # ✅ 你的 Addon 放在這裡，實時同步
+      - ./addons:/data/behavior_packs
+      - ./server.properties:/data/server.properties
+    environment:
+      - EULA=TRUE
+      - ONLINE_MODE=FALSE
+      - ALLOW_CHEATS=TRUE
+    restart: unless-stopped
