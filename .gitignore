@@ -1,0 +1,12 @@
+# 忽略伺服器臨時文件
+data/
+logs/
+*.log
+# 忽略 Docker 臨時數據
+.dockerignore
+# 忽略系統文件
+.DS_Store
+Thumbs.db
+# 保留空目錄（Git 同步文件夾結構）
+!addons/.gitkeep
+!worlds/.gitkeep

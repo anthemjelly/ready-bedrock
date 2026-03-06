@@ -1,0 +1,124 @@
+﻿name: ready-docker-dev
+
+# 全局數據卷
+volumes:
+  db-discord-dev:
+    external: false
+
+# 全局網路
+networks:
+  net-discord-dev:
+    driver: bridge
+
+# 敏感配置
+secrets:
+  db-discord-secret-dev:
+    file: ../db/password-dev.txt
+
+services:
+  core:
+    build:
+      context: ..  
+      dockerfile: ./core/Base.docker 
+      args:
+        UID: 10001
+        GID: 10001
+    image: anthemjelly/ready-docker-core:latest
+    stdin_open: true
+    tty: true
+    # 開發環境不暴露端口，由 Dev Container 自動轉發
+    ports:
+      - "8060:8060"
+    # 環境變量：開發環境專屬配置
+    environment:
+      - POSTGRES_SERVER=dev-db
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=dev_db
+      - POSTGRES_PASSWORD_FILE=/run/secrets/db-discord-secret-dev
+    depends_on:
+      dev-db:
+        condition: service_healthy
+    secrets:
+      - db-discord-secret-dev
+    volumes:
+      - ../:/app:cached,uid=10001,gid=10001
+    user: "10001:10001"
+    working_dir: /app
+    networks:
+      - net-discord-dev
+    restart: no
+
+  python:
+    build:
+      context: ..
+      dockerfile: ./lang/python/Python.docker
+      args:
+        UID: 10001
+        GID: 10001
+    image: anthemjelly/ready-docker-python:latest
+    stdin_open: true
+    tty: true
+    ports:
+      - "8061:8061"
+    depends_on:
+      dev-db:
+        condition: service_healthy
+    secrets:
+      - db-discord-secret-dev
+    volumes:
+      - ../:/app:cached,uid=10001,gid=10001
+    user: "10001:10001"
+    networks:
+      - net-discord-dev
+    restart: no
+
+  discord:
+    build:
+      context: ..
+      dockerfile: ./scenarios/discord/Discord.docker
+      args:
+        UID: 10001
+        GID: 10001
+    image: anthemjelly/ready-docker-discord:latest
+    stdin_open: true
+    tty: true
+    ports:
+      - "8062:8062"
+    depends_on:
+      dev-db:
+        condition: service_healthy
+    secrets:
+      - db-discord-secret-dev
+    volumes:
+      - ../:/app:cached,uid=10001,gid=10001
+    user: "10001:10001"
+    networks:
+      - net-discord-dev
+    restart: no
+
+  # 開發環境專用 PostgreSQL 數據庫
+  dev-db:
+    image: postgres:18-bookworm
+    restart: always
+    user: postgres
+    secrets:
+      - db-discord-secret-dev
+    volumes:
+      - db-discord-dev:/var/lib/postgresql
+    environment:
+      - POSTGRES_DB=dev_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD_FILE=/run/secrets/db-discord-secret-dev
+    ports:
+      - "8090:5432"
+    expose:
+      - 5432
+    networks:
+      - net-discord-dev
+    # 健康檢查
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres", "-d", "dev_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
