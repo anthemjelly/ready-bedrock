@@ -1,12 +1,34 @@
-# 忽略伺服器臨時文件
+# #############################################################################
+# Minecraft Bedrock Docker 服务器标准 .gitignore
+# #############################################################################
+
+# 服务器运行时生成的目录
+worlds/
+backups/
+downloads/
+tmp/
 data/
-logs/
+
+# 行为包、资源包（服务器会自动下载，不要提交）
+addons/
+behavior_packs/
+resource_packs/
+
+# 服务器配置文件（自动生成）
+server.properties
+allowlist.json
+permissions.json
+whitelist.json
+server-icon.png
+
+# Docker 相关
 *.log
-# 忽略 Docker 臨時數據
 .dockerignore
-# 忽略系統文件
+*.tar.gz
+
+# 系统垃圾文件
 .DS_Store
 Thumbs.db
-# 保留空目錄（Git 同步文件夾結構）
-!addons/.gitkeep
-!worlds/.gitkeep
+.idea/
+.vscode/
+*.swp

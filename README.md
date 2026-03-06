@@ -1,62 +1,77 @@
-# 通用 Docker 打包盒
-一套支援**分層構建、多語言擴展、零重複配置**的 Docker 模板，適合作為所有 Docker 專案的「基礎工具箱」。
+# Minecraft 基岩版 Docker 伺服器
+✅ 容器化一键部署 | ✅ 开发/生产双环境 | ✅ 秒启动优化 | ✅ 支持Addon开发
 
-## 📦 核心概念（簡單易懂）
-把 Docker 鏡像拆成 3 層「積木」，需要什麼就疊什麼：
-| 層級         | 作用                                  | 類比                  |
-|--------------|---------------------------------------|-----------------------|
-| `core`       | 通用基礎（系統、工具、時區）          | 所有房子都用的「地基」|
-| `lang/`      | 語言專屬（Python/Node.js 環境）      | 不同風格的「房屋框架」|
-| `scenarios/` | 場景化組裝（WebAPI/CLI 工具）        | 裝修好的「具體房子」  |
+基于 itzg/minecraft-bedrock-server 构建，开箱即用的基岩版官方服务器模板
 
-## 📁 目錄結構
-```
-ready-docker/
-├── core/                  # 通用基礎（所有場景複用）
-│   ├── Dockerfile.base    # 基礎鏡像構建檔
-│   ├── .dockerignore      # 通用忽略規則
-│   └── scripts/           # 通用腳本（健康檢查、時區設定）
-├── lang/                  # 語言專屬（可擴展）
-│   └── python/            # Python 環境
-│       ├── Dockerfile.python
-│       ├── requirements/  # Python 依賴分層
-│       │   ├── base.txt   # 通用依賴（pip、setuptools）
-│       │   └── webapi.txt # WebAPI 專屬（fastapi、uvicorn）
-│       └── scripts/       # Python 專屬腳本
-├── scenarios/             # 場景化組裝（你的業務）
-│   └── example/           # 你的 場景
-│       ├── Dockerfile
-│       ├── docker-compose.yml
-│       └── .env.example
-├── build.sh               # 一鍵構建所有鏡像
-└── README.md              # 本文件
+## 🚀 快速启动
+### 生产环境（正式服/公网联机）
+```bash
+docker-compose up -d
 ```
 
-## 🚀 快速開始（3 步搞定）
-### 前置條件
-- 已安裝 Docker（版本 ≥ 20.10）
-- 已啟動 Docker 服務
+### 开发环境（测试/调试Addon/允许作弊）
+```bash
+docker-compose -f docker-compose.dev.yml up -d
+```
 
-### 操作步驟
-1. **給構建腳本加執行權限**
-   ```bash
-   chmod +x build.sh
-   ```
-2. **一鍵構建所有鏡像**
-   ```bash
-   ./build.sh
-   ```
-3. **啟動你的場景**
-   ```bash
-   cd scenarios/example
-   docker-compose up -d
-   ```
+### 查看实时日志
+```bash
+# 生产服
+docker logs -f mc-bedrock-production
 
-## 🔧 如何擴展其他語言（以 Node.js 為例）
-1. 在 `lang/` 下建立 `nodejs/` 目錄
-2. 新增 `lang/nodejs/Dockerfile.nodejs`（基於 `core/Dockerfile.base`）
-3. 在 `build.sh` 中添加 Node.js 鏡像的構建命令
-4. 在 `scenarios/` 下建立對應的場景目錄（如 `nodejs-express`）
+# 开发服
+docker logs -f mc-bedrock-dev
+```
 
-## 📄 許可證
-本項目採用 MIT 許可證 - 詳見 [LICENSE](LICENSE) 文件
+### 关闭服务器
+```bash
+# 生产服
+docker-compose down
+
+# 开发服
+docker-compose -f docker-compose.dev.yml down
+```
+
+## 🌍 连接方式
+### 本地连接
+- 地址：`localhost`
+- 端口：`19132`
+
+### 局域网连接
+- 地址：你的电脑局域网IP（如 `192.168.1.100`）
+- 端口：`19132`
+
+### 外网连接
+使用 **playit.gg**（UDP穿透，无需路由器设置）
+或路由器端口映射：`UDP 19132`
+
+## 📁 项目结构
+```
+.
+├── /.devcontainer
+├────── compose.yml          # 开发环境配置
+├────── devcontainer.json
+├── Base.docker              # 基础镜像构建文件
+├── compose.yml              # 生产环境配置
+├── .gitignore               # Git 忽略文件
+├── README.md                # 项目说明
+├── README.docker.md         # Docker说明
+├── worlds/                  # 世界存档（不提交Git）
+├── addons/                  # 行为包/资源包（自动生成）
+└── backups/                 # 备份文件（不提交Git）
+```
+
+## ⚙️ 核心特性
+- ✅ 非Root权限运行，安全稳定
+- ✅ 关闭冗余备份，秒级启动
+- ✅ 自动创建世界，无需手动配置
+- ✅ 开发环境热更新Addon
+- ✅ 适配Windows/Linux/Mac
+- ✅ 完整Git忽略配置，仓库干净整洁
+
+## 🎯 Addon 开发说明
+开发的Addon放入 `addons/` 文件夹
+重启服务器即可加载，开发环境支持实时热更
+
+## 📝 许可证
+MIT License - 自由使用与修改
