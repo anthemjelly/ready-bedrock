@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "g3630_4b439dae"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:g3630k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo55645",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:g3630",
+      "count": 1
+    }
+  }
+}

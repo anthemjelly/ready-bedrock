@@ -1,0 +1,43 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ate_pc_5_4",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Body",
+					"pivot": [0, 23.3, -0.2]
+				},
+				{
+					"name": "Body2",
+					"parent": "Body",
+					"pivot": [0, 23.3, -0.2],
+					"cubes": [
+						{"origin": [-5, 7.95, -3.2], "size": [10, 16, 6], "uv": [0, 0]},
+						{"origin": [-3.5, 11.3, -3.2], "size": [7, 4, 1], "inflate": 0.7, "uv": [0, 31]},
+						{"origin": [-4.4, 16.3, -4.2], "size": [1, 6, 1], "uv": [16, 31]},
+						{"origin": [-3.5, 16.4, -4.2], "size": [7, 6, 3], "inflate": -0.3, "uv": [0, 22]},
+						{"origin": [-3.5, 11.9, 2.1], "size": [7, 11, 1], "inflate": 0.3, "uv": [20, 22]},
+						{"origin": [3.25, 11.6, -1.7], "size": [2, 5, 3], "inflate": 0.5, "uv": [32, 8]},
+						{"origin": [-5.25, 11.6, -1.7], "size": [2, 5, 3], "inflate": 0.5, "uv": [32, 8], "mirror": true}
+					]
+				},
+				{
+					"name": "RightArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "LeftArm",
+					"pivot": [5, 22, 0]
+				}
+			]
+		}
+	]
+}

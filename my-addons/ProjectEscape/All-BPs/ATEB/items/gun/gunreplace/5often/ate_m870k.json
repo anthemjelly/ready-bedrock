@@ -1,0 +1,32 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ate:m870k",
+            "menu_category": {
+                "category": "items",
+                "group": "group.gun5.name"
+            }
+        },
+        "components": {
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 1,
+            "minecraft:glint": false,
+            "minecraft:use_modifiers": {
+                "movement_modifier": 0.5,
+                "use_duration": 9999
+            },       
+            "minecraft:allow_off_hand": false,
+            "minecraft:icon": "ate:m870k",
+            "minecraft:display_name": {
+                "value": "Remington M870 泵动式霰弹枪\n§712/70mm\n单发\n后坐力:0.01,腰射散布:0.03\n膛口初速:60\n直接装填12/70弹药"
+            },
+            "minecraft:damage": 5,
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "sword"
+            },
+            "tag:minecraft:transform_materials": {}
+        }
+    }
+}

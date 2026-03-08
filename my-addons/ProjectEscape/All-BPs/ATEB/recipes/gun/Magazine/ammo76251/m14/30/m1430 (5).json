@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rem1430es_m61_d0b3e657"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:m1430k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76251_m61",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:m1430_m61",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "p903k_79ffd0e4"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AB"
+        ],
+        "key": {
+            "A": {
+                "item": "ate:p90k",
+                "data": 0
+            },
+            "B": {
+                "item": "ate:p903up",
+                "data": 0
+            }
+        },
+        "result": {
+            "item": "ate:p903k",
+            "count": 1
+        }
+    }
+}

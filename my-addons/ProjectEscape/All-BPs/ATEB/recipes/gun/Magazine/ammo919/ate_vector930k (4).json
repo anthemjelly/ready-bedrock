@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vector930_green_d130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:vector930_green",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:vector930k","count": 1},
+    { "item": "ate:ammo919_green","count": 3}
+    ]
+  }
+}

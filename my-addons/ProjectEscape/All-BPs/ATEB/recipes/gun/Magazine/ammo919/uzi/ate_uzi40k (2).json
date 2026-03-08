@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "uzi40_rip_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:uzi40_rip",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:uzi40k","count": 1},
+    { "item": "ate:ammo919_rip","count": 4}
+    ]
+  }
+}

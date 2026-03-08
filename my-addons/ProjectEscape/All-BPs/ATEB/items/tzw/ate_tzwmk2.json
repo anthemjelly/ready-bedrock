@@ -1,0 +1,46 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ate:tzwmk2",
+            "menu_category": {
+                "category": "items",
+                "group": "group.tzw.name"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "MK2 手榴弹\n§7爆炸范围:3\n爆炸威力:60\n引信时长:3.5"
+            },
+            "minecraft:stacked_by_data": true,
+            "minecraft:cooldown": {
+                "category": "ate:tzwmk2_cooldown",
+                "duration": 0.9
+            },
+            "minecraft:allow_off_hand": false,
+            "minecraft:hand_equipped": true,
+            "minecraft:use_animation": "bow",
+            "minecraft:max_stack_size": 5,
+            "minecraft:icon": "ate_tzwmk2",
+            "minecraft:projectile": {
+                "projectile_entity": "ate:tzwmk2_bullet"
+            },
+                        "minecraft:tags": {
+                "tags": [
+                    "ate:fw"
+                ]
+            },
+            "minecraft:throwable": {
+                "do_swing_animation": false,
+                "launch_power_scale": 1.0,
+                "max_draw_duration": 0.0,
+                "max_launch_power": 1.0,
+                "min_draw_duration": 0.0,
+                "scale_power_by_draw_duration": false
+            },
+            "minecraft:custom_components": [
+                "ate_tzwmk2:trigger"
+            ]
+        }
+    }
+}

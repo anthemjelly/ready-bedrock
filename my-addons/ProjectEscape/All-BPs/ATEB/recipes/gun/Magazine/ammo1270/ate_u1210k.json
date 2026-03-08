@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "u1210_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:u1210",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:u1210k","count": 1},
+    { "item": "ate:ammo1270","count": 2}
+    ]
+  }
+}

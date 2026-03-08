@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "g330_m80a1_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:g330_m80a1",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:g330k","count": 1},
+    { "item": "ate:ammo76251_m80a1","count": 3}
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ate:yb4_6",
+            "menu_category": {
+                "category": "items",
+                "group": "group.mitem.name"
+            }
+        },
+        "components": {
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 1,
+            "minecraft:glint": true,
+            "minecraft:food": {
+                "saturation_modifier": 0,
+                "nutrition": 0,
+                "can_always_eat": true,
+                "using_converts_to": "ate:yb4_5"
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "ate:mitem"
+                ]
+            },
+            "minecraft:use_modifiers": {
+                "use_duration": 4.1,
+                "movement_modifier": 0.2
+            },
+            "minecraft:custom_components": [
+                "ate:yb2",
+                "ate:ssb",
+                "ate:bd"
+            ],
+            "minecraft:cooldown": {
+                "category": "yb1_4_cooldown",
+                "duration": 0
+            },
+            "minecraft:allow_off_hand": false,
+            "tag:minecraft:is_food": {},
+            "minecraft:use_animation": "eat",
+            "minecraft:icon": "ate:yb4_6"
+        }
+    }
+}

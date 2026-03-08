@@ -1,0 +1,73 @@
+{
+    "format_version": "1.21.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ate:heavyhammer"            ,"menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "ate_heavyhammer"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "Heavy hammer/重锤\n§7耐久度:508\n攻速:0.4"
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:copper_tier"
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:durability": {
+                "max_durability": 508,
+                "damage_chance": {
+                    "min": 0,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "ate:heavyhammer"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability"
+                    },
+                    {
+                        "items": [
+                            "minecraft:copper_ingot"
+                        ],
+                        "repair_amount": "query.max_durability * 0.25"
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "slot": "sword",
+                "value": 25
+            },
+            "minecraft:hand_equipped": {
+                "value": true
+            },
+            "minecraft:use_modifiers": {
+                "use_duration": 72000,
+                "emit_vibrations": false,
+                "start_sound": "item.spear.use",
+                "movement_modifier": 1.0
+            },
+            "minecraft:cooldown": {
+                "category": "spear",
+                "duration": 2.5,
+                "type": "attack"
+            },
+            "minecraft:swing_duration": {
+                "value": 1.2
+            },
+            "minecraft:damage": {
+                "value": 25
+            }
+        }
+    }
+}

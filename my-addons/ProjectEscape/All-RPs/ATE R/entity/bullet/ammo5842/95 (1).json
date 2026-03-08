@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:client_entity": {
+        "description": {
+            "animations": {
+                "eff": "animation.bullet_p.base"
+            },
+            "geometry": {
+                "default": "geometry.bullet_big"
+            },
+            "identifier": "ate:gunqbz95_dbp87_bullet",
+            "materials": {
+                "default": "entity_beam_additive"
+            },
+            "render_controllers": [
+                "controller.render.albullet"
+            ],
+            "scripts": {
+                "animate": [
+                    "eff"
+                ]
+            },
+            "textures": {
+                "default": "textures/entity/bullet/yellow"
+            }
+        }
+    }
+}

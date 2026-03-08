@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "m825_28f95d70"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:m825k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo12799",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:m825",
+      "count": 1
+    }
+  }
+}

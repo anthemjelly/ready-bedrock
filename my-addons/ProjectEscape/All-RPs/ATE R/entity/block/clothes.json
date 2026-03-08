@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:clothes",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "vindicator"
+      },
+      "textures": {
+        "default": "textures/entity/ateentity/clothes"
+      },
+      "geometry": {
+        "default": "geometry.clothes"
+      },
+      "spawn_egg": {
+        "base_color": "#F9B576",
+        "overlay_color": "#E7AC53"
+      },
+      "scripts": {
+        "scale": "0.9375",
+        "animate": [
+          "vindicator_base",
+          "vindicator_walk",
+          "controller_look_at_target",
+          "controller_vindicator_base",
+          "controller_riding"
+        ]
+      },
+      "animations": {
+        "look_at_target_default": "animation.ate_mbox.look_at_target.default",
+        "look_at_target_gliding": "animation.ate_mbox.look_at_target.gliding",
+        "look_at_target_swimming": "animation.ate_mbox.look_at_target.swimming",
+        "riding.arms": "animation.ate_mbox.riding.arms",
+        "riding.legs": "animation.ate_mbox.riding.legs",
+        "vindicator_base": "animation.ate_mbox.base",
+        "vindicator_attack": "animation.ate_mbox.attack",
+        "vindicator_walk": "animation.ate_mbox.walk",
+        "celebrating": "animation.ate_mbox.celebrating",
+        "controller_look_at_target": "controller.animation.humanoid.look_at_target",
+        "controller_vindicator_base": "controller.animation.ate_mbox.base",
+        "controller_riding": "controller.animation.humanoid.riding",
+        "vindicator_hand_attack": "animation.ate_mbox.hand_attack"
+      },
+      "render_controllers": [
+        "controller.render.vindicator"
+      ],
+      "enable_attachables": true,
+      "hide_armor": true
+    }
+  }
+}

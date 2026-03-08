@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:cooked_mutton_skewer"
+    },
+    "tags": [ "grill" ],
+    "pattern": ["P"],
+    "key": {
+      "P": {
+        "item": "ate:mutton_skewer"
+      }
+    },
+    "result": {
+      "item": "ate:cooked_mutton_skewer",
+      "count": 1
+    }
+  }
+}

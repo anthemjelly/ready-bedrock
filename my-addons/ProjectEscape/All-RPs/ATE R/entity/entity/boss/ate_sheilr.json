@@ -1,0 +1,53 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "ate:sheilr",
+            "materials": {
+                "default": "vindicator"
+        },
+            "textures": {
+                "default": "textures/entity/ateentity/ate_sheilr"
+        },
+            "geometry": {
+                "default": "geometry.ate_sheilr"
+        },
+            "render_controllers": ["controller.render.vindicator"],
+            "scripts": {
+        "scale": "0.95",
+        "animate": [
+          "vindicator_base",
+          {"vindicator_walk":"query.ground_speed>0.02 && !query.is_riding"},
+          {"bursting_clothes":"query.health<12"},
+          "controller_look_at_target",
+          "controller_vindicator_base",
+          "controller_riding",
+          {"dead":"!q.is_alive"}
+        ],
+        "pre_animation": [
+        "variable.has_target=query.has_target;"
+    ]
+      },
+      "animations": {
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+        "riding.legs": "animation.ate_sheilr.riding_pose",
+        "vindicator_base": "animation.ate_sheilr.idle",
+        "vindicator_attack": "animation.ate_sheilr.attack",
+        "vindicator_walk": "animation.ate_sheilr.movement",
+        "controller_look_at_target": "controller.animation.humanoid.look_at_target",
+        "controller_vindicator_base": "controller.animation.ate_sheilr.basic",
+        "controller_riding": "controller.animation.humanoid.riding",
+        "bursting_clothes":"animation.ate_sheilr.bursting_clothes",
+        "dead":"animation.ate_sheilr.dead"
+      },
+            "spawn_egg": {
+                "base_color": "#FFFEFD",
+        "overlay_color": "#FF0909"
+    },
+            "enable_attachables": true,
+            "hide_armor": true
+        }
+    }
+}

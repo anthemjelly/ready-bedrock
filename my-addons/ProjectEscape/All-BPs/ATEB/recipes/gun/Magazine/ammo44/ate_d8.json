@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "d8_841d294d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:d8k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo44",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:d8",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:parasitesber",
+      "materials": {
+        "default": "polar_bear"
+      },
+      "textures": {
+        "default": "textures/entity/ateentity/ate_parasitesber"
+      },
+      "geometry": {
+        "default": "geometry.ate_parasitesber"
+      },
+      "animations": {
+        "walk": "animation.quadruped.walk",
+        "move": "animation.ate_parasitesber.move",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.ate_parasitesber.baby_transform"
+      },
+      "scripts": {
+        "scale": "1.2"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.ate_parasitesber.move"
+        },
+        {
+          "baby": "controller.animation.ate_parasitesber.baby"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.polarbear"
+      ],
+      "spawn_egg": {
+        "base_color": "#EA9A51",
+        "overlay_color": "#FF0909"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vss20_c1307n12a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:vss20_7n12",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:vss20k","count": 1},
+    { "item": "ate:ammo939_7n12","count": 2}
+    ]
+  }
+}

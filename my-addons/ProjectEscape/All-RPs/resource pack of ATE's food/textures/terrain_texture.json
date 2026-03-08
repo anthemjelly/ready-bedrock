@@ -1,0 +1,176 @@
+{
+  "resource_pack_name": "blocks_textures",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "pot": {
+      "textures": "textures/blocks/pot"
+    },
+    "cutting_board": {
+      "textures": "textures/blocks/cutting_board"
+    },
+    "tomato_state_0": {
+      "textures": "textures/blocks/tomato_state_0"
+    },
+    "tomato_state_1": {
+      "textures": "textures/blocks/tomato_state_1"
+    },
+    "tomato_state_2": {
+      "textures": "textures/blocks/tomato_state_2"
+    },
+    "potato_state_0": {
+      "textures": "textures/blocks/potato_state_0"
+    },
+    "potato_state_1": {
+      "textures": "textures/blocks/potato_state_1"
+    },
+    "potato_state_2": {
+      "textures": "textures/blocks/potato_state_2"
+    },
+    "pumpkin_state_0": {
+      "textures": "textures/blocks/pumpkin_state_0"
+    },
+    "pumpkin_state_1": {
+      "textures": "textures/blocks/pumpkin_state_1"
+    },
+    "pumpkin_state_2": {
+      "textures": "textures/blocks/pumpkin_state_2"
+    },
+    "cabbage_state_0": {
+      "textures": "textures/blocks/cabbage_state_0"
+    },
+    "cabbage_state_1": {
+      "textures": "textures/blocks/cabbage_state_1"
+    },
+    "cabbage_state_2": {
+      "textures": "textures/blocks/cabbage_state_2"
+    },
+    "wheat_state_0": {
+      "textures": "textures/blocks/wheat_state_0"
+    },
+    "wheat_state_1": {
+      "textures": "textures/blocks/wheat_state_1"
+    },
+    "wheat_state_2": {
+      "textures": "textures/blocks/wheat_state_2"
+    },
+    "fermentor": {
+      "textures": "textures/blocks/fermentor"
+    },
+    "carrot_state_0": {
+      "textures": "textures/blocks/carrot_state_0"
+    },
+    "carrot_state_1": {
+      "textures": "textures/blocks/carrot_state_1"
+    },
+    "carrot_state_2": {
+      "textures": "textures/blocks/carrot_state_2"
+    },
+    "onion_state_0": {
+      "textures": "textures/blocks/onion_state_0"
+    },
+    "onion_state_1": {
+      "textures": "textures/blocks/onion_state_1"
+    },
+    "onion_state_2": {
+      "textures": "textures/blocks/onion_state_2"
+    },
+    "grill": {
+      "textures": "textures/blocks/grill"
+    },
+    "wine_cabinet": {
+      "textures": "textures/blocks/wine_cabinet"
+    },
+    "white_wine_cabinet": {
+      "textures": "textures/blocks/white_wine_cabinet"
+    },
+    "wine_bottle_cabinet": {
+      "textures": "textures/blocks/wine_bottle_cabinet"
+    },
+    "red_wine": {
+      "textures": "textures/blocks/red_wine"
+    },
+    "seasoning_box": {
+      "textures": "textures/blocks/seasoning_box"
+    },
+    "brandy": {
+      "textures": "textures/blocks/brandy"
+    },
+    "jiang": {
+      "textures": "textures/blocks/qi/jiang"
+    },
+    "shuai": {
+      "textures": "textures/blocks/qi/shuai"
+    },
+    "redshi": {
+      "textures": "textures/blocks/qi/redshi"
+    },
+    "blackshi": {
+      "textures": "textures/blocks/qi/blackshi"
+    },
+    "redxiang": {
+      "textures": "textures/blocks/qi/redxiang"
+    },
+    "blackxiang": {
+      "textures": "textures/blocks/qi/blackxiang"
+    },
+    "blackma": {
+      "textures": "textures/blocks/qi/blackma"
+    },
+    "redma": {
+      "textures": "textures/blocks/qi/redma"
+    },
+    "redju": {
+      "textures": "textures/blocks/qi/redju"
+    },
+    "blackju": {
+      "textures": "textures/blocks/qi/blackju"
+    },
+    "bing": {
+      "textures": "textures/blocks/qi/bing"
+    },
+    "zu": {
+      "textures": "textures/blocks/qi/zu"
+    },
+    "redpao": {
+      "textures": "textures/blocks/qi/redpao"
+    },
+    "blackpao": {
+      "textures": "textures/blocks/qi/blackpao"
+    },
+    "qi1": {
+      "textures": "textures/blocks/qi/qi1"
+    },
+    "qi2": {
+      "textures": "textures/blocks/qi/qi2"
+    },
+    "qi3": {
+      "textures": "textures/blocks/qi/qi3"
+    },
+    "qi4": {
+      "textures": "textures/blocks/qi/qi4"
+    },
+    "qi5": {
+      "textures": "textures/blocks/qi/qi5"
+    },
+    "qi6": {
+      "textures": "textures/blocks/qi/qi6"
+    },
+    "qi7": {
+      "textures": "textures/blocks/qi/qi7"
+    },
+    "qi8": {
+      "textures": "textures/blocks/qi/qi8"
+    },
+    "qi9": {
+      "textures": "textures/blocks/qi/qi9"
+    },
+    "qi10": {
+      "textures": "textures/blocks/qi/qi10"
+    },
+    "qi11": {
+      "textures": "textures/blocks/qi/qi11"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "ph_to_nvi"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "tag": "ate:nvi"
+            }
+        },
+        "unlock": [
+            {
+                "tag": "misc_a"
+            }
+        ],
+        "result": {
+            "item": "ate:nightvisioninstrument",
+            "data": 0,
+            "count": 1
+        }
+    }
+}

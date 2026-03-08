@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mg3_m61_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:mg3100_m61",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:mg3100k","count": 1},
+    { "item": "ate:ammo76251_m61","count": 10}
+    ]
+  }
+}

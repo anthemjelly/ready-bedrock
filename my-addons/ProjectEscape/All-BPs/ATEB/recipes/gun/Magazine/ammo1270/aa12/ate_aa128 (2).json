@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aa128_e133_jede8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "B "
+    ],
+    "key": {
+      "A": {
+        "item": "ate:aa128k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo1270_j",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:aa128_j",
+      "count": 1
+    }
+  }
+}

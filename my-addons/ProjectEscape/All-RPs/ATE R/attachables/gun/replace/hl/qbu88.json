@@ -1,0 +1,44 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:qbu88k",
+            "geometry": {
+                "default": "geometry.gun.qbu88fpp",
+                "fpp": "geometry.gun.qbu88fpp",
+                "scope": "geometry.gun.scope"
+            },
+            "textures": {
+                "default": "textures/items_3d/qbu88",
+                "scope_tex": "textures/scope"
+            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"},
+                {"controller.render.scope": "c.is_first_person"}
+            ],
+            "animations": {
+                "semigun": "controller.animation.semigun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.qbu88.idle",
+                "equip": "animation.qbu88.equip",
+                "aim": "animation.aek.ads_sights",
+                "sprint": "animation.qbu88.sprint",
+                "reloading": "animation.qbu88.reloading",
+                "fire": "animation.gunm110.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"semigun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

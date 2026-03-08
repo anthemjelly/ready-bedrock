@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "vector4530rip_ff88e919"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:vector4530k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo45_rip",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:vector4530_rip",
+      "count": 1
+    }
+  }
+}

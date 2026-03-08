@@ -1,0 +1,33 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ate:familyportrait",
+            "menu_category": {
+                "category": "items",
+                "group": "group.fvv.name"
+            }
+        },
+        "components": {
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 16,
+            "minecraft:fuel": {
+                "duration": 4
+            },
+            "minecraft:allow_off_hand": false,
+            "minecraft:icon": "familyportrait",
+            "minecraft:display_name": {
+                "value": "[4]Family photo/白琳的全家福\n§7估价:20\n燃烧时长:4"
+            },
+            "tag:minecraft:transform_materials": {},
+            "minecraft:tags": {
+                "tags": [
+                    "ate:bigfw"
+                ]
+            },
+            "minecraft:custom_components": [
+                "ate_kit:trigger"
+            ]
+        }
+    }
+}

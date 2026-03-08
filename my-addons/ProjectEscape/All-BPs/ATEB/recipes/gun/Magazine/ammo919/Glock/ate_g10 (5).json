@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "g10__rip57a2fea8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:g10k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo919_rip",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:g10_rip",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "s12k20_b27fb5d5"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABB",
+      "BB "
+    ],
+    "key": {
+      "A": {
+        "item": "ate:s12k20k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo1270",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:s12k20",
+      "count": 1
+    }
+  }
+}

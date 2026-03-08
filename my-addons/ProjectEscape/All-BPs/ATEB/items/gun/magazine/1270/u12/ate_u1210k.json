@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ate:u1210k",
+            "menu_category": {
+                "category": "items",
+                "group": "group.mag.name"
+            }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 2,
+      "minecraft:glint": false,
+      "minecraft:use_modifiers": {
+        "movement_modifier": 1,
+        "use_duration": 0
+      },
+      "minecraft:allow_off_hand": true,
+      "minecraft:icon": "ate:u1210k",
+      "minecraft:display_name": {
+        "value": "USAS-12 10发弹匣\n§7可装填弹药:12x70mm"
+      },
+      "tag:minecraft:transform_materials": {},
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:transform_materials"
+        ]
+      },
+      "minecraft:custom_components": [
+        "ate_u1210k:trigger"
+      ]
+    }
+  }
+}

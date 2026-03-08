@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:pork_cube"
+    },
+    "tags": [ "cutting_board" ],
+    "pattern": ["P"],
+    "key": {
+      "P": {
+        "item": "ate:pork"
+      }
+    },
+    "result": [
+      {
+      "item": "ate:pork_cube",
+      "count": 2
+     }
+  ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:axmck",
+            "geometry": {
+                "default": "geometry.gun.axmcfpp",
+                "fpp": "geometry.gun.axmcfpp",
+                "scope": "geometry.gun.scope"
+            },
+            "textures": {
+                "default": "textures/items_3d/axmc",
+                "scope_tex": "textures/scope"
+            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"},
+                {"controller.render.scope": "c.is_first_person"}
+            ],
+            "animations": {
+                "semigun": "controller.animation.semigun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.axmc.idle",
+                "equip": "animation.axmc.equip",
+                "aim": "animation.aek.ads_sights",
+                "sprint": "animation.axmc.sprint",
+                "reloading": "animation.axmc.reloading",
+                "fire": "animation.gunaxmc.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"semigun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

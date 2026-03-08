@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:npc1",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/entity/npc/treyia"
+      },
+      "geometry": {
+        "default": "geometry.treyia"
+      },
+      "scripts": {
+        "scale": "0.9",
+        "animate": [
+          "idle",
+          "look_at_player"
+        ],
+        "pre_animation": [
+          "v.a=query.bone_orientation_trs('head');"
+        ]
+      },
+      "animations": {
+        "idle": "animation.npc2.idle",
+        "look_at_player": "animation.common.look_at_target"
+      },
+      "spawn_egg": {
+        "base_color": "#FFFCFA",
+        "overlay_color": "#09D6FF"
+      },
+      "render_controllers": [
+        "controller.render.skeleton"
+      ],
+      "enable_attachables": true
+    }
+  }
+}

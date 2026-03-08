@@ -1,0 +1,37 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ate:pp91k",
+            "menu_category": {
+                "category": "items",
+                "group": "group.gun.name"
+            }
+        },
+        "components": {
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 1,
+            "minecraft:glint": false,
+            "minecraft:use_modifiers": {
+                "movement_modifier": 0.6,
+                "use_duration": 9999
+            },
+            "minecraft:damage": 4,
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "sword"
+            },
+            "minecraft:allow_off_hand": false,
+            "minecraft:icon": "ate:pp91k",
+            "minecraft:display_name": {
+                "value": "PP-91 “雪松” 冲锋枪\n§79x18mm\nRPM:910\n后坐力:0.02,腰射散布:0.08\n膛口初速:100\n可用弹匣:PP-91 30发弹匣"
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "ate:fw"
+                ]
+            },
+            "tag:minecraft:transform_materials": {}
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "blueachive1": {
+            "textures": "textures/3d/blueachive1"
+        },
+        "blueachive2": {
+            "textures": "textures/3d/blueachive2"
+        },
+        "blueachive3": {
+            "textures": "textures/3d/blueachive3"
+        },
+        "blueachive4": {
+            "textures": "textures/3d/blueachive4"
+        },
+        "blueachive5": {
+            "textures": "textures/3d/blueachive5"
+        },
+        "blueachive6": {
+            "textures": "textures/3d/blueachive6"
+        },
+        "blueachive7": {
+            "textures": "textures/3d/blueachive7"
+        },
+        "blueachive8": {
+            "textures": "textures/3d/blueachive8"
+        },
+        "blueachive9": {
+            "textures": "textures/3d/blueachive9"
+        },
+        "blueachive10": {
+            "textures": "textures/3d/blueachive10"
+        },
+        "blueachive11": {
+            "textures": "textures/3d/blueachive11"
+        },
+        "blueachive12": {
+            "textures": "textures/3d/blueachive12"
+        },
+        "blueachive13": {
+            "textures": "textures/3d/blueachive13"
+        },
+        "blueachive14": {
+            "textures": "textures/3d/blueachive14"
+        },
+        "blueachive15": {
+            "textures": "textures/3d/blueachive15"
+        },
+        "blueachive16": {
+            "textures": "textures/3d/blueachive16"
+        },
+        "blueachive17": {
+            "textures": "textures/3d/blueachive17"
+        },
+        "blueachive18": {
+            "textures": "textures/3d/blueachive18"
+        },
+        "blueachive19": {
+            "textures": "textures/3d/blueachive19"
+        },
+        "blueachive20": {
+            "textures": "textures/3d/blueachive20"
+        },
+        "blueachive21": {
+            "textures": "textures/3d/blueachive21"
+        },
+        "blueachive22": {
+            "textures": "textures/3d/blueachive22"
+        },
+        "blueachive23": {
+            "textures": "textures/3d/blueachive23"
+        },
+        "touhouproject1": {
+            "textures": "textures/3d/touhouproject1"
+        },
+        "touhouproject2": {
+            "textures": "textures/3d/touhouproject2"
+        },
+        "touhouproject3": {
+            "textures": "textures/3d/touhouproject3"
+        },
+        "touhouproject4": {
+            "textures": "textures/3d/touhouproject4"
+        },
+        "touhouproject5": {
+            "textures": "textures/3d/touhouproject5"
+        },
+        "touhouproject6": {
+            "textures": "textures/3d/touhouproject6"
+        },
+        "touhouproject7": {
+            "textures": "textures/3d/touhouproject7"
+        },
+        "touhouproject8": {
+            "textures": "textures/3d/touhouproject8"
+        },
+        "touhouproject9": {
+            "textures": "textures/3d/touhouproject9"
+        },
+        "touhouproject10": {
+            "textures": "textures/3d/touhouproject10"
+        },
+        "touhouproject11": {
+            "textures": "textures/3d/touhouproject11"
+        },
+        "touhouproject12": {
+            "textures": "textures/3d/touhouproject12"
+        }
+    }
+}

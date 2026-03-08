@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "svd20_c13_7bt20a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:svd20_7bt1",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:svd20k","count": 1},
+    { "item": "ate:ammo76254_7bt1","count": 2}
+    ]
+  }
+}

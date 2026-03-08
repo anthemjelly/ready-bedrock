@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:shredded_potato"
+    },
+    "tags": [ "cutting_board" ],
+    "pattern": ["P"],
+    "key": {
+      "P": {
+        "item": "ate:potato"
+      }
+    },
+    "result": {
+      "item": "ate:shredded_potato",
+      "count": 2
+    }
+  }
+}

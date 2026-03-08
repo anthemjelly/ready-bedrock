@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fal20_c130_m80a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:fal20_m80",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:fal20k","count": 1},
+    { "item": "ate:ammo76251_m80","count": 2}
+    ]
+  }
+}

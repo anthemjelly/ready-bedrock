@@ -1,0 +1,58 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ate_ph_3_2b",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-5, 28, -5], "size": [10, 1, 10], "inflate": 0.1, "uv": [0, 0]},
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 1, "uv": [0, 11]}
+					]
+				},
+				{
+					"name": "Head2",
+					"parent": "Head",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "56hvjh",
+					"parent": "Head2",
+					"pivot": [0, 28, -6],
+					"cubes": [
+						{"origin": [-1, 28.1, -6], "size": [2, 2, 2], "uv": [16, 59]},
+						{"origin": [-3, 25, -8], "size": [6, 3, 2], "uv": [0, 59]},
+						{"origin": [-1, 28.1378, -7.96864], "size": [2, 1, 3], "pivot": [0, 28.6378, -6.36864], "rotation": [49.5, 0, 0], "uv": [18, 55]}
+					]
+				},
+				{
+					"name": "fjj",
+					"parent": "56hvjh",
+					"pivot": [-1.9, 0, -0.6],
+					"cubes": [
+						{"origin": [-3.7, 24.4, -12.3], "size": [4, 4, 5], "inflate": -1.2, "uv": [0, 41]},
+						{"origin": [-3.2, 24.9, -10.7], "size": [3, 3, 4], "inflate": -0.5, "uv": [18, 41]}
+					]
+				},
+				{
+					"name": "tf",
+					"parent": "56hvjh",
+					"pivot": [1.9, 0, -0.6],
+					"cubes": [
+						{"origin": [-0.3, 24.4, -12.3], "size": [4, 4, 5], "inflate": -1.2, "uv": [0, 50]},
+						{"origin": [0.2, 24.9, -10.7], "size": [3, 3, 4], "inflate": -0.5, "uv": [18, 48]}
+					]
+				}
+			]
+		}
+	]
+}

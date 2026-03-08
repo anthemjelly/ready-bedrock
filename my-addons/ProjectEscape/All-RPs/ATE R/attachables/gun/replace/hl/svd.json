@@ -1,0 +1,44 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:svdk",
+            "geometry": {
+                "default": "geometry.gun.svdfpp",
+                "fpp": "geometry.gun.svdfpp",
+                "scope2": "geometry.gun.scope2"
+            },
+            "textures": {
+                "default": "textures/items_3d/svd",
+                "scope_tex2": "textures/scope2"
+            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat2": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"},
+                {"controller.render.scope2": "c.is_first_person"}
+            ],
+            "animations": {
+                "semigun": "controller.animation.semigun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.ak12.idle",
+                "equip": "animation.ak12.equip",
+                "aim": "animation.aek.ads_sights",
+                "sprint": "animation.ak12.sprint",
+                "reloading": "animation.ak12.reloading",
+                "fire": "animation.gunm110.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"semigun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

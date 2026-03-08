@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_d9df95e2"
+    },
+    "tags": [
+      
+      "shop"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:diamondring",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:money",
+      "count": 22
+    }
+  }
+}

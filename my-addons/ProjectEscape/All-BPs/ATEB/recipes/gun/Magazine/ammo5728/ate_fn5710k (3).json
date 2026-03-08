@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fn5710_c130_r37fa258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:fn5710_r37f",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:fn5710k","count": 1},
+    { "item": "ate:ammo5728_r37f","count": 1}
+    ]
+  }
+}

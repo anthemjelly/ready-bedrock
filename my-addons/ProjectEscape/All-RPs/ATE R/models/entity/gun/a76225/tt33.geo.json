@@ -1,0 +1,102 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.gun.tt33fpp",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "gunfpp",
+					"pivot": [-2, 23, -12],
+					"binding": "q.item_slot_to_bone_name('head')",
+					"cubes": [
+						{"origin": [-3, 23.5, -19], "size": [1, 1, 7], "uv": [0, 28]},
+						{"origin": [-3, 22.5, -15.5], "size": [1, 1, 2], "uv": [22, 28]},
+						{"origin": [-3, 24, -19.5], "size": [1, 1, 6], "inflate": -0.1, "uv": [28, 8]}
+					]
+				},
+				{
+					"name": "slide",
+					"parent": "gunfpp",
+					"pivot": [-2, 23, -12],
+					"cubes": [
+						{"origin": [-3, 24.3, -19], "size": [1, 1, 7], "inflate": 0.1, "uv": [28, 0]},
+						{"origin": [-3, 24.7, -13], "size": [1, 1, 1], "inflate": -0.2, "uv": [6, 34]},
+						{"origin": [-3, 24.7, -19], "size": [1, 1, 1], "inflate": -0.2, "uv": [6, 34]},
+						{"origin": [-4, 23.1, -15.9], "size": [3, 3, 3], "inflate": -0.9, "uv": [28, 15]}
+					]
+				},
+				{
+					"name": "bolt",
+					"parent": "gunfpp",
+					"pivot": [-2, 23.5, -12],
+					"rotation": [10, 0, 0]
+				},
+				{
+					"name": "rotate",
+					"parent": "gunfpp",
+					"pivot": [-2, 23, -13.5],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [-3, 19.83522, -14.22625], "size": [1, 4, 2], "uv": [16, 28]},
+						{"origin": [-3.5, 19.83522, -14.22625], "size": [2, 4, 2], "inflate": -0.4, "uv": [56, 0]}
+					]
+				},
+				{
+					"name": "mag",
+					"parent": "rotate",
+					"pivot": [-2, 20.83522, -14.72625],
+					"cubes": [
+						{"origin": [-3, 19.83522, -14.22625], "size": [1, 4, 2], "inflate": -0.1, "uv": [28, 21]}
+					]
+				},
+				{
+					"name": "ammo_df",
+					"parent": "mag",
+					"pivot": [-2, 20.83522, -15.72625],
+					"cubes": [
+						{"origin": [-3, 22.93522, -14.22625], "size": [1, 1, 2], "inflate": -0.1, "uv": [28, 27]}
+					]
+				},
+				{
+					"name": "ammo_ap",
+					"parent": "mag",
+					"pivot": [-2, 20.83522, -13.72625],
+					"cubes": [
+						{"origin": [-3, 22.93522, -14.22625], "size": [1, 1, 2], "inflate": -0.1, "uv": [28, 30]}
+					]
+				},
+				{
+					"name": "suppressor",
+					"parent": "gunfpp",
+					"pivot": [1, 23, -5]
+				},
+				{
+					"name": "g_hand_r",
+					"parent": "gunfpp",
+					"pivot": [-3, 22, -13],
+					"rotation": [-15, -5, 2.5],
+					"cubes": [
+						{"origin": [-5, 20, -14], "size": [4, 4, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "g_hand_l",
+					"parent": "gunfpp",
+					"pivot": [-1.5, 22, -14],
+					"rotation": [-12.5, 57.5, 40],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-3.5, 20, -15], "size": [4, 4, 10], "uv": [0, 14], "mirror": false}
+					]
+				}
+			]
+		}
+	]
+}

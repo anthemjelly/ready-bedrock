@@ -1,0 +1,44 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:sa58k",
+            "geometry": {
+                "default": "geometry.gun.sa58fpp",
+                "fpp": "geometry.gun.sa58fpp",
+                "scope": "geometry.gun.scope"
+            },
+            "textures": {
+                "default": "textures/items_3d/sa58",
+                "scope_tex": "textures/scope"
+            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"},
+                {"controller.render.scope": "c.is_first_person"}
+            ],
+            "animations": {
+                "gun": "controller.animation.gun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.sa58.idle",
+                "equip": "animation.sa58.equip",
+                "aim": "animation.aek.ads_sights",
+                "sprint": "animation.sa58.sprint",
+                "reloading": "animation.sa58.reloading",
+                "fire": "animation.gunsa58.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"gun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

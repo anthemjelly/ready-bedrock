@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pp1930_green_511687b9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:pp1930k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo919_green",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:pp1930_green",
+      "count": 1
+    }
+  }
+}

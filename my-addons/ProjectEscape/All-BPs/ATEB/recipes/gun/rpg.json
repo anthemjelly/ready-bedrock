@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "p902k_491rpg44bd8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:rpgk",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:rpg1",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:gunrpg",
+      "count": 1
+    }
+  }
+}

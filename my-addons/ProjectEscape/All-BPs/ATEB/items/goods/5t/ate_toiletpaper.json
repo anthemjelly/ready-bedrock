@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ate:toiletpaper",
+            "menu_category": {
+                "category": "items",
+                "group": "group.fvv.name"
+            }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 4,
+      "minecraft:fuel": {
+        "duration": 4
+      },
+      "minecraft:allow_off_hand": false,
+      "minecraft:icon": "ate:toiletpaper",
+      "minecraft:display_name": {
+        "value": "[16]卫生纸\n§7估价:20\n燃烧时长:4"
+      },
+      "tag:minecraft:transform_materials": {},
+      "minecraft:tags": {
+        "tags": [
+          "ate:bigfw"
+        ]
+      },
+      "minecraft:custom_components": [
+        "ate_toiletpaper:trigger"
+      ]
+    }
+  }
+}

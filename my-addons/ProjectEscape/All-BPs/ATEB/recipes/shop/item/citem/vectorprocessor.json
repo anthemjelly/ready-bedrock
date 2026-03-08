@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "vectorprocess_orb8e4064"
+        },
+        "tags": [
+            "shop"
+        ],
+        "pattern": [
+            "A"
+        ],
+        "key": {
+            "A": {
+                "item": "ate:vectorprocessor",
+                "data": 0
+            }
+        },
+        "result": {
+            "item": "ate:moneybig",
+            "count": 22
+        }
+    }
+}

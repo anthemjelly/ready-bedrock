@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ppsh4171_d130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ppsh4171",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:ppsh4171k","count": 1},
+    { "item": "ate:ammo76225","count": 7}
+    ]
+  }
+}

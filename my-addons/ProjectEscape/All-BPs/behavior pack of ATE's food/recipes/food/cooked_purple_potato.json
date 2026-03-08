@@ -1,0 +1,18 @@
+{
+  "format_version": "1.17.41",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "ate:cooked_purple_potato"
+    },
+    "tags": [
+      "furnace",
+      "smoker",
+      "campfire",
+      "soul_campfire"
+    ],
+    "input": "ate:purple_potato",
+    "output": {
+      "item": "ate:cooked_purple_potato"
+    }
+  }
+}

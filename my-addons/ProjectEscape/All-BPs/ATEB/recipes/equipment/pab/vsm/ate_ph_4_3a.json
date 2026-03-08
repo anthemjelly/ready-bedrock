@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ph_4_3a_b678bde8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ph_4_3",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ph_a_1",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:ph_4_3a",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:skimmed_milk"
+    },
+    "tags": [
+      "pot"
+    ],
+    "pattern": [
+      "M"
+    ],
+    "key": {
+      "M": {
+        "item": "ate:milk_bottle"
+      }
+    },
+    "result": [
+      {
+        "item": "ate:skimmed_milk"
+      },
+      {
+        "item": "ate:creamy"
+      }
+    ]
+  }
+}

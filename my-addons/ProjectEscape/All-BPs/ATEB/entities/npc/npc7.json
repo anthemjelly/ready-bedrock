@@ -1,0 +1,63 @@
+{
+    "format_version": "1.21.20",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "ate:npc7",
+            "is_spawnable": true,
+            "is_summonable": true
+        },
+        "components": {
+            "minecraft:physics": {},
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "lxr"
+                ]
+            },
+            "minecraft:is_collidable": {},
+            "minecraft:behavior.look_at_player": {
+                "probability": 0.6,
+                "look_distance": 8.0
+            }
+        },
+        "component_groups": {
+            "npc": {
+                "minecraft:npc": {}
+            },
+            "trader": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "entity.ate:npc7.name",
+                    "table": "trading/entities/ate_npc7_trades.json",
+                    "new_screen": true
+                },
+                "minecraft:behavior.trade_with_player": {}
+            }
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "add": {
+                    "component_groups": [
+                        "npc"
+                    ]
+                }
+            },
+            "ate:trader": {
+                "remove": {
+                    "component_groups": [
+                        "npc"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "trader"
+                    ]
+                }
+            }
+        }
+    }
+}

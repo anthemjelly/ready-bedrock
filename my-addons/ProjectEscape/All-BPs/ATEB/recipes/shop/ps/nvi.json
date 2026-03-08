@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_4782198c"
+    },
+    "tags": [
+      "shop"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:nightvisioninstrument",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:money15000",
+      "count": 4
+    }
+  }
+}

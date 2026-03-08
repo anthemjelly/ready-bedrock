@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "t7920_b89f_m855a1b970"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "B "
+    ],
+    "key": {
+      "A": {
+        "item": "ate:t7920k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76225_m855a1",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:t7920_m855a1",
+      "count": 1
+    }
+  }
+}

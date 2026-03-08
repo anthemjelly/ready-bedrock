@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ate.pig_body.new": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": [153.11067, -85.82618, 52.86836],
+					"position": [8, 1, 20]
+				}
+			}
+		}
+	}
+}

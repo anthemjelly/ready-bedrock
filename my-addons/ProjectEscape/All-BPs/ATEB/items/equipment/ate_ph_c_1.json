@@ -1,0 +1,34 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ate:ph_c_1",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 4,
+            "minecraft:glint": false,
+            "minecraft:use_modifiers": {
+                "movement_modifier": 1,
+                "use_duration": 0
+            },
+            "minecraft:allow_off_hand": false,
+            "minecraft:icon": "ate:ph_c_1",
+            "minecraft:display_name": {
+                "value": "防弹护颚\n§6耐久值:+20\n防御力:+3"
+            },
+            "tag:minecraft:transform_materials": {},
+            "minecraft:tags": {
+                "tags": [
+                    "ate:p1"
+                ]
+            },
+            "minecraft:custom_components": [
+                "ate_ph_a_1:trigger"
+            ]
+        }
+    }
+}

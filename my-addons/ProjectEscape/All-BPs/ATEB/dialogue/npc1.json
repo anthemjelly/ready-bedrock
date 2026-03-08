@@ -1,0 +1,27 @@
+{"format_version":"1.17","minecraft:npc_dialogue":{"scenes":[
+
+
+{"scene_tag":"ate:a1","npc_name":"特蕾娅","text":"我是特蕾娅，你们的指挥官，欢迎加入「逃逸小分队」",
+"buttons":[
+{"name":"我们真的能逃出去吗","commands":["/dialogue open @s @initiator ate:a2"]}
+]},
+
+{"scene_tag":"ate:a2","npc_name":"特蕾娅","text":"你要明白一件事情，孩子，我们之所以被困在这里，是因为虫疫。我们有一个更激进的方案",
+"buttons":[
+{"name":"什么方案？","commands":["/dialogue open @s @initiator ate:a3"]}
+]},
+
+{"scene_tag":"ate:a3","npc_name":"特蕾娅","text":"我们杀掉所有的寄生虫",
+"buttons":[
+{"name":"？？？","commands":["/dialogue open @s @initiator ate:a4"]}
+]},
+
+{"scene_tag":"ate:a4","npc_name":"特蕾娅","text":"我的方案会在后面有所展现,现在,由你去完成这些任务,向我展示你的实力",
+"buttons":[
+{"name":"啊？","commands":["/event entity @s ate:trader"]}
+]}
+
+
+
+
+]}}

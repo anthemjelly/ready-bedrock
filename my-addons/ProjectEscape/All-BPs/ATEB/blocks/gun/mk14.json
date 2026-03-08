@@ -1,0 +1,55 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ate:mk14",
+   "traits": {
+    "minecraft:placement_direction": {
+      "enabled_states":
+      ["minecraft:cardinal_direction"]
+    }
+   },
+   "menu_category": {
+        "category": "items"
+      }
+		},
+		"components": {
+   "minecraft:loot": "loot_tables/ground/mk14.json",
+   "minecraft:selection_box": {
+     "origin": [-8.0, 1.0, -8.0],
+     "size": [16.0, 9.0, 2.0]
+   },
+   "minecraft:collision_box": false,
+   "minecraft:geometry": "geometry.ate_mk14",
+   "minecraft:material_instances": {
+    "*": {
+        "texture":"ate_guns_mk14",
+        "ambient_occlusion": true,
+        "face_dimming": true,
+        "render_method": "alpha_test"
+    }
+   }
+		},
+ 
+"permutations": [
+  {
+    "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, 90, 0] }
+    }
+  },
+  {
+    "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, 180, 0] }
+    }
+  },
+  {
+    "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+    "components": {
+      "minecraft:transformation": { "rotation": [0, -90, 0] }
+    }
+   }
+  ]
+	}
+}

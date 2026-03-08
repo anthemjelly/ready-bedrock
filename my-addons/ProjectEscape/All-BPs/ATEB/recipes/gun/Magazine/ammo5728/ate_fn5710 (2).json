@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fn5710_ss1984c1a4d6c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:fn5710k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo5728_ss198",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:fn5710_ss198",
+      "count": 1
+    }
+  }
+}

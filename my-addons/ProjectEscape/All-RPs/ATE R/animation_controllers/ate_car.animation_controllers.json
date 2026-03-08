@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.ate_car.base": {
+			"states": {
+				"default": {
+					"transitions": [
+						{"walk": "query.ground_speed>0.1"}
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"walk": {
+					"animations": ["vindicator_walk"],
+					"transitions": [
+						{"default": "query.ground_speed<=0.02"}
+					]
+				}
+			}
+		},
+		"controller.animation.vindicator.base.v1.0": {
+			"states": {
+				"default": {
+					"animations": [ "vindicator_walk"]
+				}
+			}
+		}
+	}
+}

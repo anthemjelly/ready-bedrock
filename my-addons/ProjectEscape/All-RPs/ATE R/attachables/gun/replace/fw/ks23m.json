@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:ks23mk",
+            "geometry": {
+                "default": "geometry.gun.ks23mfpp",
+                "fpp": "geometry.gun.ks23mfpp"            },
+            "textures": {
+                "default": "textures/items_3d/ks23m"            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"}            ],
+            "animations": {
+                "semigun": "controller.animation.semigun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.ks23m.idle",
+                "equip": "animation.ks23m.equip",
+                "aim": "animation.ks23m.ads_sights",
+                "sprint": "animation.ks23m.sprint",
+                "reloading": "animation.ks23m.reloading",
+                "fire": "animation.gunm870.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"semigun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

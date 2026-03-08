@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "s12k5_e13_ap203ede8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+     
+    ],
+    "key": {
+      "A": {
+        "item": "ate:s12k5k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo1270_ap20",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:s12k5_ap20",
+      "count": 1
+    }
+  }
+}

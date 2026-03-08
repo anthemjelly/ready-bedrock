@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:mini14k",
+            "geometry": {
+                "default": "geometry.gun.mini14fpp",
+                "fpp": "geometry.gun.mini14fpp"            },
+            "textures": {
+                "default": "textures/items_3d/mini14"            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"}            ],
+            "animations": {
+                "semigun": "controller.animation.semigun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.mk14.idle",
+                "equip": "animation.mk14.equip",
+                "aim": "animation.mk14.ads_sights",
+                "sprint": "animation.mk14.sprint",
+                "reloading": "animation.mk14.reloading",
+                "fire": "animation.gunm110.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"semigun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "aug9k_79ffd0e4"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "AB"
+        ],
+        "key": {
+            "A": {
+                "item": "ate:aug9k",
+                "data": 0
+            },
+            "B": {
+                "item": "ate:augup",
+                "data": 0
+            }
+        },
+        "result": {
+            "item": "ate:aug92k",
+            "count": 1
+        }
+    }
+}

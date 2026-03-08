@@ -1,0 +1,57 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ate:ph_2_1ac",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.helmet"
+            }
+        },
+        "components": {
+            "minecraft:icon": "ate_ph_2_1ac",
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "armor_head"
+            },
+            "minecraft:durability": {
+                "max_durability": 45,
+                "damage_chance": {
+                    "min": 60,
+                    "max": 100
+                }
+            },
+            "minecraft:knockback_resistance": {
+                "protection": 0.75
+            },
+            "minecraft:mining_speed": 5,
+            "minecraft:hand_equipped": false,
+            "minecraft:wearable": {
+                "slot": "slot.armor.head",
+                "protection": 8
+            },
+            "minecraft:display_name": {},
+            "minecraft:tags": {
+                "tags": [
+                    "ate:p2"
+                ]
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "ate:pfix"
+                        ],
+                        "repair_amount": 10
+                    }
+                ]
+            },
+            "minecraft:allow_off_hand": false,
+            "tag:minecraft:is_armor": {},
+            "tag:minecraft:transformable_items": {},
+            "tag:minecraft:trimmable_armors": {},
+            "minecraft:glint": false
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:pumpkin_wheat_dough"
+    },
+    "tags": [ "pot" ],
+    "pattern": [ "PW", "GG"],
+    "key": {
+      "W": {
+        "item": "ate:wheat_dough" 
+      },
+      "P": {
+        "item": "ate:water"
+      },
+      "G": {
+        "item": "ate:pumpkin_chunks"
+      }
+    },
+    "result": [
+      {
+        "item": "ate:pumpkin_wheat_dough"
+      }
+    ]
+  }
+}

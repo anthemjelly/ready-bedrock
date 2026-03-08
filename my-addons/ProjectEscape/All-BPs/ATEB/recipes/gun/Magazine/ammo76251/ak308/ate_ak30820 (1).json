@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ak30820_m62_df2e4f67"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "B "
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ak30820k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76251_m62",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:ak30820_m62",
+      "count": 1
+    }
+  }
+}

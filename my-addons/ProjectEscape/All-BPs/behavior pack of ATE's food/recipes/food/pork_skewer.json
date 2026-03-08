@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:pork_skewer"
+    },
+    "tags": [
+      "cutting_board"
+    ],
+    "pattern": [
+      " AT",
+      " TC"
+    ],
+    "key": {
+      "T": {
+        "item": "ate:pork_cube"
+      },
+      "C": {
+        "item": "ate:cabbage_leaf"
+      },
+      "A": {
+        "item": "ate:salt"
+      }
+    },
+    "result": [
+      {
+        "item": "ate:pork_skewer"
+      }
+    ]
+  }
+}

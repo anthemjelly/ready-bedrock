@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:rpgk",
+            "geometry": {
+                "default": "geometry.gun.rpgkfpp",
+                "fpp": "geometry.gun.rpgkfpp"            },
+            "textures": {
+                "default": "textures/items_3d/rpg"            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"}            ],
+            "animations": {
+                "semigun": "controller.animation.semigun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.sks.idle",
+                "equip": "animation.sks.equip",
+                "aim": "animation.sks.ads_sights",
+                "sprint": "animation.sks.sprint",
+                "reloading": "animation.sks.reloading",
+                "fire": "animation.gunsks.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"semigun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

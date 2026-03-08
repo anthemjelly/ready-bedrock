@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "g340_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:g340",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:g340k","count": 1},
+    { "item": "ate:ammo76251","count": 4}
+    ]
+  }
+}

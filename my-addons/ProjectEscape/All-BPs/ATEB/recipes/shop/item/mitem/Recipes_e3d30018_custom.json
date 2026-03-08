@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_53fef965"
+    },
+    "tags": [
+      
+      "shop"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:insulin",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:money",
+      "count": 15
+    }
+  }
+}

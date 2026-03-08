@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:cheese_brie"
+    },
+    "tags": [
+      "fermentor"
+    ],
+    "pattern": [
+      "MMM",
+      " S"
+    ],
+    "key": {
+      "M": {
+        "item": "ate:milk_bottle"
+      },
+      "S": {
+        "item": "ate:salt"
+      }
+    },
+    "result": [
+      {
+        "item": "ate:cheese_brie",
+        "count": 2
+      }
+    ]
+  }
+}

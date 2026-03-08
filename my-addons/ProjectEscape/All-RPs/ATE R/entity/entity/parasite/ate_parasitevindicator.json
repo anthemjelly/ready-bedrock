@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:parasitevindicator",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "vindicator"
+      },
+      "textures": {
+        "default": "textures/entity/ateentity/ate_parasitevindicator"
+      },
+      "geometry": {
+        "default": "geometry.ate_parasitevindicator"
+      },
+      "spawn_egg": {
+        "base_color": "#EA9A51",
+        "overlay_color": "#FF0909"
+      },
+      "scripts": {
+        "scale": "0.9375",
+        "animate": [
+          "vindicator_base",
+          "vindicator_walk",
+          "controller_look_at_target",
+          "controller_vindicator_base",
+          "controller_riding"
+        ]
+      },
+      "animations": {
+        "look_at_target_default": "animation.ate_parasitevindicator.look_at_target.default",
+        "look_at_target_gliding": "animation.ate_parasitevindicator.look_at_target.gliding",
+        "look_at_target_swimming": "animation.ate_parasitevindicator.look_at_target.swimming",
+        "riding.arms": "animation.ate_parasitevindicator.riding.arms",
+        "riding.legs": "animation.ate_parasitevindicator.riding.legs",
+        "vindicator_base": "animation.ate_parasitevindicator.base",
+        "vindicator_attack": "animation.ate_parasitevindicator.attack",
+        "vindicator_walk": "animation.ate_parasitevindicator.walk",
+        "celebrating": "animation.ate_parasitevindicator.celebrating",
+        "controller_look_at_target": "controller.animation.humanoid.look_at_target",
+        "controller_vindicator_base": "controller.animation.ate_parasitevindicator.base",
+        "controller_riding": "controller.animation.humanoid.riding",
+        "vindicator_hand_attack": "animation.ate_parasitevindicator.hand_attack"
+      },
+      "render_controllers": [
+        "controller.render.vindicator"
+      ],
+      "enable_attachables": true,
+      "hide_armor": true
+    }
+  }
+}

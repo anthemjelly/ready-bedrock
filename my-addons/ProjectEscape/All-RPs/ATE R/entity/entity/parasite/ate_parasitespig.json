@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:parasitespig",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "pig"
+      },
+      "textures": {
+        "default": "textures/entity/ateentity/ate_parasitespig",
+        "saddled": "textures/entity/ateentity/ate_parasitespig_saddled"
+      },
+      "geometry": {
+        "default": "geometry.ate_parasitespig"
+      },
+      "animations": {
+        "setup": "animation.ate_parasitespig.setup",
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.ate_parasitespig.baby_transform"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          {
+            "walk": "query.modified_move_speed"
+          },
+          "look_at_target",
+          {
+            "baby_transform": "query.is_baby"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.pig"
+      ],
+      "spawn_egg": {
+        "base_color": "#FF90D7",
+        "overlay_color": "#FF0000"
+      }
+    }
+  }
+}

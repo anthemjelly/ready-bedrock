@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ate:diamondring",
+            "menu_category": {
+                "category": "items",
+                "group": "group.fvv.name"
+            }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 16,
+      "minecraft:allow_off_hand": false,
+      "minecraft:icon": "ate:diamondring",
+      "minecraft:display_name": {
+        "value": "[4]§eDiamond Ring/钻戒\n§7估价:11000"
+      },
+      "tag:minecraft:transform_materials": {},
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:transform_materials"
+        ]
+      },
+      "minecraft:custom_components": [
+        "ate_diamondring:trigger"
+      ]
+    }
+  }
+}

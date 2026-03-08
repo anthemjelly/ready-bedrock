@@ -1,0 +1,315 @@
+
+
+
+item.ate:nightvisioninstrument=§4紅外夜視儀 
+item.ate:ph_1_1=老舊防彈頭盔\n§7耐久值:5\n§7防禦力:2 
+item.ate:pc_1_1=老舊工兵防彈衣\n§7耐久值:7\n§7防禦力:2 
+item.ate:ph_2_1a=安保複合頭盔\n§7耐久值:15\n§7防禦力:3 
+item.ate:ph_2_1b=安保複合頭盔\n§7耐久值:15\n§7防禦力:3 
+item.ate:ph_2_1c=安保複合頭盔\n§7耐久值:15\n§7防禦力:3 
+item.ate:ph_2_1ac=安保複合頭盔\n§7耐久值:15\n§7防禦力:3 
+item.ate:ph_2_1bc=安保複合頭盔\n§7耐久值:15\n§7防禦力:3 
+item.ate:ph_2_1=安保複合頭盔\n§7耐久值:15\n§7防禦力:3 
+item.ate:ph_2_2=頭戴式手電工業頭盔\n§7耐久值:13\n§7防禦力:4 
+item.ate:pc_2_1=輕型安保防彈衣\n§7耐久值:18\n§7防禦力:3 
+item.ate:pc_3_1=輕型哨兵防彈衣\n§7耐久值:15\n§7防禦力:6 
+item.ate:pc_3_2=輕型複合防彈衣\n§7耐久值:25\n§7防禦力:5 
+item.ate:ph_3_1=裝甲鋼步兵防護頭盔\n§7耐久值:18\n§7防禦力:6 
+item.ate:ph_3_2=巡邏隊防護頭盔\n§7耐久值:20\n§7防禦力:5 
+item.ate:ph_3_2b=巡邏隊防護頭盔\n§7耐久值:20\n§7防禦力:5 
+item.ate:ph_4_1=輕型鋁合金頭盔\n§7耐久值:20\n§7防禦力:10 
+item.ate:ph_4_1a=輕型鋁合金頭盔\n§7耐久值:20\n§7防禦力:10 
+item.ate:ph_4_1b=輕型鋁合金頭盔\n§7耐久值:20\n§7防禦力:10 
+item.ate:ph_4_1c=輕型鋁合金頭盔\n§7耐久值:20\n§7防禦力:10 
+item.ate:ph_4_1ac=輕型鋁合金頭盔\n§7耐久值:20\n§7防禦力:10 
+item.ate:ph_4_1bc=輕型鋁合金頭盔\n§7耐久值:20\n§7防禦力:10 
+item.ate:ph_4_3=輕型戰術全防護頭盔\n§7耐久值:25\n§7防禦力:11 
+item.ate:ph_4_3a=輕型戰術全防護頭盔\n§7耐久值:25\n§7防禦力:11 
+item.ate:ph_4_3b=輕型戰術全防護頭盔\n§7耐久值:25\n§7防禦力:11 
+item.ate:ph_4_3c=輕型戰術全防護頭盔\n§7耐久值:25\n§7防禦力:11 
+item.ate:ph_4_3ac=輕型戰術全防護頭盔\n§7耐久值:25\n§7防禦力:11 
+item.ate:ph_4_3bc=輕型戰術全防護頭盔\n§7耐久值:25\n§7防禦力:11 
+item.ate:pc_4_1=裝甲鋼長欄防彈衣\n§7耐久值:28\n§7防禦力:11 
+item.ate:pc_4_2=重型哨兵防彈衣\n§7耐久值:30\n§7防禦力:10 
+item.ate:pc_4_3=格欄複合防彈衣\n§7耐久值:35\n§7防禦力:9 
+item.ate:pc_4_4=輕型戰術防彈衣\n§7耐久值:33\n§7防禦力:10 
+item.ate:pc_4_5=輕型陶瓷防彈衣\n§7耐久值:30\n§7防禦力:12 
+item.ate:ph_4_2=簡易步兵頭盔\n§7耐久值:23\n§7防禦力:12 
+item.ate:ph_4_4=遊騎兵防暴頭盔\n§7耐久值:45\n§7防禦力:10 
+item.ate:ph_5_1=§d§r重型戰術頭盔\n§7耐久值:55\n§7防禦力:12 
+item.ate:ph_5_1a=§d§r重型戰術頭盔\n§7耐久值:55\n§7防禦力:12 
+item.ate:ph_5_1b=§d§r重型戰術頭盔\n§7耐久值:55\n§7防禦力:12
+item.ate:ph_5_3=§d§r郊狼戰術頭盔\n§7耐久值:65\n§7防禦力:13
+item.ate:ph_5_3a=§d§r郊狼戰術頭盔\n§7耐久值:65\n§7防禦力:13
+item.ate:ph_5_3b=§d§r郊狼戰術頭盔\n§7耐久值:65\n§7防禦力:13 
+item.ate:pc_5_1=§d§r鈦制裝甲防彈衣\n§7耐久值:63\n§7防禦力:14 
+item.ate:pc_5_2=§d§r複合防彈衣\n§7耐久值:70\n§7防禦力:12 
+item.ate:pc_5_3=§d§r重型全覆蓋式防彈衣\n§7耐久值:65\n§7防禦力:13 
+item.ate:pc_5_3a=§d§r重型全覆蓋式防彈衣\n§7耐久值:65\n§7防禦力:13 
+item.ate:pc_5_4=§d§r指揮官防彈衣\n§7耐久值:68\n§7防禦力:13 
+item.ate:pc_5_5=§d§r重型防衛者防彈衣\n§7耐久值:70\n§7防禦力:13 
+item.ate:pc_5_6=§d§r超高分子量聚乙烯防彈衣\n§7耐久值:75\n§7防禦力:12 
+item.ate:ph_5_2=§d§r重型防暴頭盔\n§7耐久值:59\n§7防禦力:13 
+item.ate:ph_5_2a=§d§r重型防暴頭盔\n§7耐久值:58\n§7防禦力:13 
+item.ate:ph_6_4=§4§r重型指揮官頭盔\n§7耐久值:129\n§7防禦力:18 
+item.ate:ph_6_4a=§4§r重型指揮官頭盔\n§7耐久值:129\n§7防禦力:18 
+item.ate:ph_6_4b=§4§r重型指揮官頭盔\n§7耐久值:129\n§7防禦力:18 
+item.ate:pc_6_1=§4§r鈦制重型裝甲防彈衣\n§7耐久值:160\n§7防禦力:26 
+item.ate:pc_6_2=§4§r陶瓷防彈衣\n§7耐久值:138\n§7防禦力:19 
+item.ate:pc_6_3=§4§r裝甲鋼重型防彈衣\n§7耐久值:175\n§7防禦力:27 
+item.ate:pc_6_4=§4§r重型複合防彈衣\n§7耐久值:150\n§7防禦力:18 
+item.ate:pc_6_5=§4§r重型指揮官防彈衣\n§7耐久值:58\n§7防禦力:20 
+item.ate:ph_6_1=§4§r裝甲鋼全防護重型頭盔\n§7耐久值:150\n§7防禦力:28 
+item.ate:ph_6_2=§4§r聚乙烯全防護戰術頭盔\n§7耐久值:160\n§7防禦力:23 
+item.ate:ph_6_2b=§4§r聚乙烯全防護戰術頭盔\n§7耐久值:160\n§7防禦力:23 
+item.ate:ph_6_3a=§4§r軍用戰術頭盔\n§7耐久值:138\n§7防禦力:19 
+item.ate:ph_6_3=§4§r軍用戰術頭盔\n§7耐久值:138\n§7防禦力:19 
+item.ate:ph_6_5=§4§r特種戰術頭盔\n§7耐久值:135\n§7防禦力:30
+item.ate:ek1=愛露迪克數字耳機\n§7聽力範圍:16
+item.ate:ek2=M32 耳机\n§7聽力範圍:20
+item.ate:ek3=Peltor comTac VI耳机\n§7聽力範圍:30
+
+
+
+BLOCK  tile.ate:shop.name=網路市場
+tile.ate:shop=網路市場 
+ate:shop=網路市場 
+tile.ate:block.name=防禦磚I 
+tile.ate:block=防禦磚I 
+tile.ate:block2.name=防禦磚II 
+tile.ate:block2=防禦磚II
+
+OFTEN 
+entity.ate:airdrop.name=空投箱 
+entity.ate:box.name=盒子 
+entity.ate:car.name=半履帶摩托車
+
+NPC #
+#
+#
+#
+#
+#
+#
+ 
+entity.ate:npc2.name=兌換市場 
+entity.ate:dgun3.name=消耗品市場 
+entity.ate:dgun2.name=北聯武器市場 
+entity.ate:dgun1.name=彈匣市場 
+entity.ate:dgun.name=武器市場 
+entity.ate:npc5.name=紅糖 [高級商品任務]
+entity.ate:npc6.name=？？! [高級商品任務]
+entity.ate:gunbusinessman.name=防具市場 
+entity.ate:doctor.name=補給品市場 
+entity.ate:npc1.name=特蕾婭[淨化之戰任務] 
+entity.ate:npc2.name=交換市場 
+entity.ate:npc3.name=雜物市場 
+entity.ate:npc4.name=神秘の醫生[安全箱任務] 
+entity.ate:zhg.name=工程師
+
+BOSS 
+entity.ate:kamisakinanaumi.name=神崎七海 
+entity.ate:sheilr.name=悠季瀨奈 
+entity.ate:dx.name=年
+entity.ate:nico.name=[典獄長]
+entity.ate:m7.name=七咲雨璟 
+entity.ate:dew.name=莫莫仙 
+entity.ate:sua.name=蘇初初 
+entity.ate:sue.name=蘇末未 
+entity.ate:bxdx.name=殘師
+entity.ate:amgalice.name=阿明佳·愛麗絲 
+entity.ate:time.name=時狹明諾 
+entity.ate:bigliang.name=大樑
+entity.ate:pray.name=[花栗鼠小隊]祈願 
+entity.ate:fox.name=[花栗鼠小隊]南霧心緒 
+entity.ate:maid.name="女僕長" 
+entity.ate:ice.name=冰箱 
+entity.ate:wd.name=[花栗鼠小隊]唯禞旭 
+entity.ate:huanwen.name=囚徒
+entity.ate:pbs.name=[博士]
+entity.ate:pudding.name=布丁
+entity.ate:bossyizhou.name=[指揮官]樂正伊舟 
+entity.ate:times.name=阿時梓 
+entity.ate:mask.name=[面具]M.K.
+entity.ate:verino.name=真理諾 
+entity.ate:white.name=[隊長]白琳 
+entity.ate:arensas.name=倫斯 
+#
+#
+#
+#
+#
+ 
+entity.ate:parasiteshadow.name=脈衝幻影 
+entity.ate:parasitecat.name=狂徒貓
+entity.ate:parasitesber.name=狂徒熊 
+entity.ate:parasitespig.name=狂徒豬 
+entity.ate:parasitehead.name=頭顱 
+entity.ate:people.name=狂徒人
+entity.ate:parasitescow.name=莽牛 
+entity.ate:parasiteswolf.name=狂徒狼 
+entity.ate:parasiteschicken.name=狂徒雞 
+entity.ate:parasitepeople1.name=被操縱的人類 
+entity.ate:parasiteskilling.name=小型殺戮獸 
+entity.ate:parasitesfly.name=氣球增援獸 
+item.spawn_egg.
+entity.ate:parasiteflower.name=Spawn 生厭之花 
+entity.ate:parasiteflower.name=生厭之花 
+entity.ate:peoplep.name=被寄生的人類 
+entity.ate:parasites.name=氏祖獸 
+entity.ate:parasited.name=劇毒體 
+entity.ate:parasitevindicator.name=瘋狂的狂徒
+
+RENKUN 
+entity.ate:block5842.name=南方軍士兵 
+entity.ate:block76225.name=巡邏士兵 
+entity.ate:block45.name=巡邏士兵 
+entity.ate:block919.name=巡邏士兵 
+item.spawn_egg.
+entity.ate:block1270.name=Spawn 巡邏士兵1270 
+entity.ate:block1270.name=巡邏士兵 
+entity.ate:farm76239.name=民兵 
+entity.ate:farm54539.name=民兵 
+entity.ate:farm76254.name=民兵 
+entity.ate:farm918.name=民兵 
+entity.ate:farm939.name=駐防軍士兵 
+entity.ate:farm1270.name=民兵 
+entity.ate:farm762392.name=駐防軍士兵 
+entity.ate:farm545392.name=駐防軍士兵 
+entity.ate:farm762542.name=駐防軍士兵 
+entity.ate:farm9392.name=駐防軍士兵 
+entity.ate:farm12702.name=駐防軍士兵 
+entity.ate:blockstm9.name=夕生會館近衛營 
+entity.ate:blockaug.name=夕生會館近衛營 
+entity.ate:drone.name=夕生會館專用作戰無人機 
+entity.ate:sysakl919.name=北方軍士兵 
+entity.ate:sysakl1270.name=北方軍士兵 
+entity.ate:sysakl556.name=北方軍士兵 
+entity.ate:sysakl308.name=北方軍士兵 
+entity.ate:sysakl5728.name=北方軍士兵 
+entity.ate:sysakl76239.name=北方軍士兵 
+entity.ate:ts919.name=北方軍士兵 
+entity.ate:ts1270.name=北方軍士兵 
+entity.ate:ts556.name=北方軍士兵 
+entity.ate:ts308.name=北方軍士兵 
+entity.ate:ts5728.name=北方軍士兵 
+entity.ate:ts76239.name=北方軍士兵 
+entity.ate:ys76239.name=駐防士兵 
+entity.ate:ys1270.name=駐防士兵 
+entity.ate:ys308.name=駐防士兵 
+entity.ate:black.name=駐防小隊 
+entity.ate:forest76239.name=遊蕩者 
+entity.ate:forest55645.name=遊蕩者 
+item.ate:anbox=標準安全箱 
+item.ate:anbox2=高級安全箱 
+item.ate:ankey=鑰匙鏈
+
+
+
+item 
+item.ate:water.name=礦泉水 
+item.ate:water=礦泉水 
+item.ate:gt.name=罐頭 
+item.ate:gt=罐頭 
+item.ate:orangejuice.name=橙汁 
+item.ate:orangejuice=橙汁
+
+
+
+enchantment.protect.all=綜合防護插板	 
+enchantment.protect.explosion=爆炸防護插板#
+ potion.poison.linger.name=催淚彈#
+ enchantment.protect.fall=耐摔插板#
+ enchantment.protect.fire=燃燒防護插板#
+ enchantment.protect.projectile=防彈插板 
+item.enchanted_book.name=擴展件 
+container.chest=雜物箱#
+container.chestDouble=大型雜物箱 
+container.dropper=保險箱 
+item.diamond_sword.name=高級安全箱激活標誌 
+item.light_gray_bundle=安全箱#
+item.chorus_fruit.name=加入燃料進行發電... 
+item.chorus_fruit_popped.name=電力
+item.diamond.name=該空間不可用...
+effect.badOmen=鎮定
+effect.villageHero=體能強化
+item.diamond.name=該空間不可用...
+potion.wither=大出血	#
+potion.damageBoost=強勢
+death.attack.wither=%1$s 因大出血鮮血流盡而死 
+container.barrel=櫃子 
+container.dispenser=電子保險箱 
+action.interact.tame=招募#
+hudScreen.daysPlayed=本存檔對局場數：%s#
+commands.message.display.incoming=%1$s 你聽到了：%2$s 
+multiplayer.player.joined=請注意，%s 加入了你的小分隊中 
+multiplayer.player.left=請注意，%s 離開了你的小分隊
+
+
+
+item.ate:yb1=簡易急救盒\n§7恢復效果:弱\n使用時長:3.3s 
+item.ate:yb2=大型急救包\n§7恢復效果:中\n額外治療效果:大出血\n使用時長:5.3s 
+item.ate:yb2_3=大型急救包\n§7恢復效果:中\n使用時長:1.5s 
+item.ate:yb2_2=大型急救包\n§7恢復效果:中\n使用時長:1.5s 
+item.ate:yb2_1=大型急救包\n§7恢復效果:中\n使用時長:1.5s 
+item.ate:yb3=戰地醫療包\n§7恢復效果:強\n額外治療效果:大出血\n使用時長:1.5s 
+item.ate:bd1=止血帶\n§7恢復效果:大出血\n使用時長:0.8s 
+item.ate:ssb1=手術包\n§7恢復效果:骨折\n使用時長:8.3s 
+item.ate:painkillers_1_1=濃縮鎮痛劑\n§7鎮定效果:1級 120s\n傷害抑制:1級 120s\n使用時長:1s 
+item.ate:painkillers_2_1=速效止痛藥\n§7鎮定效果:2級 180s\n傷害抑制:2級 180s\n使用時長:1s 
+item.ate:painkillers_2_2=速效止痛藥\n§7鎮定效果:2級 180s\n傷害抑制:2級 180s\n使用時長:1s 
+item.ate:painkillers_2_3=速效止痛藥\n§7鎮定效果:2級 180s\n傷害抑制:2級 180s\n使用時長:1s 
+item.ate:painkillers_3_1=強效止痛藥\n§7鎮定效果:3級 180s\n傷害抑制:3級 180s\n使用時長:1s 
+item.ate:painkillers_3_2=強效止痛藥\n§7鎮定效果:3級 180s\n傷害抑制:3級 180s\n使用時長:1s 
+item.ate:painkillers_3_3=強效止痛藥\n§7鎮定效果:3級 180s\n傷害抑制:3級 180s\n使用時長:1s 
+item.ate:painkillers_3_4=強效止痛藥\n§7鎮定效果:3級 180s\n傷害抑制:3級 180s\n使用時長:1s 
+item.ate:painkillers_3_5=強效止痛藥\n§7鎮定效果:3級 180s\n傷害抑制:3級 180s\n使用時長:1s 
+item.ate:painkillers_3_6=強效止痛藥\n§7鎮定效果:3級 180s\n傷害抑制:3級 180s\n使用時長:1s 
+item.ate:ssb3_1=專業手術包\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4s 
+item.ate:ssb3_2=專業手術包\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4s 
+item.ate:ssb3_3=專業手術包\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4s 
+item.ate:ssb3_4=專業手術包\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4s 
+item.ate:ssb3_5=專業手術包\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4s 
+item.ate:ssb3_6=專業手術包\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4s 
+item.ate:ssb2_1=軍用手術包\n§7恢復效果:弱\n額外治療效果:骨折\n使用時長:4.5s 
+item.ate:ssb2_2=軍用手術包\n§7恢復效果:弱\n額外治療效果:骨折\n使用時長:4.5s 
+item.ate:ssb2_3=軍用手術包\n§7恢復效果:弱\n額外治療效果:骨折\n使用時長:4.5s 
+item.ate:yb1_1=快速急救包\n§7恢復效果:強\n額外治療效果:大出血\n使用時長:2s 
+item.ate:yb1_2=快速急救包\n§7恢復效果:強\n額外治療效果:大出血\n使用時長:2s 
+item.ate:yb1_3=快速急救包\n§7恢復效果:強\n額外治療效果:大出血\n使用時長:2s 
+item.ate:yb1_4=快速急救包\n§7恢復效果:強\n額外治療效果:大出血\n使用時長:2s 
+item.ate:yb4_1=專業治療工具組\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4.1s 
+item.ate:yb4_2=專業治療工具組\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4.1s 
+item.ate:yb4_3=專業治療工具組\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4.1s 
+item.ate:yb4_4=專業治療工具組\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4.1s 
+item.ate:yb4_5=專業治療工具組\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4.1s 
+item.ate:yb4_6=專業治療工具組\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4.1s 
+item.ate:yb4_7=專業治療工具組\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4.1s 
+item.ate:yb4_8=專業治療工具組\n§7恢復效果:中\n額外治療效果:骨折,大出血\n使用時長:4.1s 
+item.ate:z7=再生恢復劑\n§7恢復效果:再生 II\n持續時間:76s\n使用時長:0.5s 
+item.ate:z1=體能強化劑\n§7恢復效果:免疫重型防彈衣緩慢負面效果\n持續時間:300s\n使用時長:0.5s 
+item.ate:windoil1=風油精\n§7.力量增幅:極高
+item.ate:windoil2=風油精\n§7.力量增幅:極高
+item.ate:windoil3=風油精\n§7.力量增幅:極高
+item.ate:windoil4=風油精\n§7.力量增幅:極高
+item.ate:windoil5=風油精\n§7.力量增幅:極高
+item.ate:windoil6=風油精\n§7.力量增幅:極高
+item.ate:windoil7=風油精\n§7.力量增幅:極高
+item.ate:windoil8=風油精\n§7.力量增幅:極高
+item.ate:bly=§4貝利亞特攝服 
+item.ate:bag2=B2簡易挎包 
+item.ate:bag4=B4普通登山包 
+item.ate:bag6=B6 郵差包
+item.ate:bag15=B15 軍用長條包
+item.ate:bag12=B12專業登山包 
+item.ate:bag18=B18大型登山包 
+item.ate:bag21=B21戰術背包 
+item.ate:bag20=B21專業登山包
+
+
+entity.ate:tzwmk2_bullet.name=MK2 手榴彈 
+entity.ate:tzwm67_bullet.name=M67 手榴彈 
+entity.ate:tzwf1_bullet.name=F1 短引信手榴彈 
+entity.ate:tzwv40_bullet.name=V40 微型手榴彈 
+entity.ate:explosion.name=爆炸 
+entity.ate:rpg2_bullet.name=RPG

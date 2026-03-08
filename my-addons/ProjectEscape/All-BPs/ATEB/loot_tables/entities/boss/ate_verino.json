@@ -1,0 +1,24 @@
+{"id":"1745196484996","name":"Drop 1745196484996","pools":[
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:verinoxw","functions":[{"function":"set_count","count":1},{"function":"set_data","data":0},{"function":"set_lore","lore":["真理诺的信物","一张泛黄的老照片，上面的青年和另一位站在东漾军校的门前，意气风发的样子和每一个孩子一样对未来充满期待","此物品來自對局內"]}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":8,"name":"ate:pp19k","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.6,"max":0.9}}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:pp1930_7n31","functions":[{"function":"set_count","count":{"min":2,"max":4}},{"function":"set_data","data":0}]}
+,{"type":"item","weight":1,"name":"ate:pp1950_ap","functions":[{"function":"set_count","count":{"min":1,"max":2}},{"function":"set_data","data":0}]}
+]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:tzwm67","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:lighteriron","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:lighter","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:bs","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:money","functions":[{"function":"set_count","count":{"min":1,"max":10}},{"function":"set_data","data":0}]}]}
+
+,{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:pc_3_1","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:pc_3_2","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]}
+]}
+
+
+
+]}

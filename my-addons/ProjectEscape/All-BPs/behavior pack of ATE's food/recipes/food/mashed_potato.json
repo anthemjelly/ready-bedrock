@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:mashed_potato"
+    },
+    "tags": [
+      "pot"
+    ],
+    "pattern": [
+      "P"
+    ],
+    "key": {
+      "P": {
+        "item": "ate:cooked_potato"
+      }
+    },
+    "result": [
+      {
+        "item": "ate:mashed_potato"
+      }
+    ]
+  }
+}

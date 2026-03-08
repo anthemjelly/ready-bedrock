@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sj165_89c8fe71"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:sj165k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo338",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:sj165",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ate:scarhk",
+            "menu_category": {
+                "category": "items",
+                "group": "group.gun2.name"
+            }
+        },
+        "components": {
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 1,
+            "minecraft:glint": false,
+            "minecraft:use_modifiers": {
+                "movement_modifier": 0.5,
+                "use_duration": 9999
+            },
+            "minecraft:food": {
+                "saturation_modifier": 0,
+                "nutrition": 0,
+                "can_always_eat": true,
+                "using_converts_to": "ate:scarhk"
+            },
+            "minecraft:allow_off_hand": false,
+            "minecraft:icon": "ate:scarhk",
+            "minecraft:display_name": {
+                "value": "FN SCAR-H 突击步枪\n§77.62x51mm\nRPM:650\n后坐力:0.02,腰射散布:0.08\n膛口初速:160\n可用弹匣:SCAR-H20发弹匣"
+            },
+            "minecraft:damage": 5,
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "sword"
+            },
+            "tag:minecraft:transform_materials": {},
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:transform_materials"
+                ]
+            },
+            "minecraft:custom_components": [
+                "gun:b76251"
+            ]
+        }
+    }
+}

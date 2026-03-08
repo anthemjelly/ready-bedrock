@@ -1,0 +1,57 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "ate:parasiteflower": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": {
+            "sound": "mob.ate_parasiteflower.idle",
+            "volume": [
+              1.0,
+              1.0
+            ],
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "hurt": {
+            "sound": "mob.ate_parasiteflower.hurt",
+            "volume": [
+              1.0,
+              1.0
+            ],
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "death": {
+            "sound": "mob.ate_parasiteflower.death",
+            "volume": [
+              1.0,
+              1.0
+            ],
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "ambient.in.raid": {
+            "sound": "mob.vindicator.idle",
+            "volume": 3.0,
+            "pitch": [
+              0.8,
+              1.2
+            ]
+          },
+          "celebrate": "mob.vindicator.celebrate"
+        }
+      }
+    }
+  }
+}

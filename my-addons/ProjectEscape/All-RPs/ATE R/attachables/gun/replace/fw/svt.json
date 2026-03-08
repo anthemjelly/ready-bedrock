@@ -1,0 +1,45 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:svtk",
+            "geometry": {
+                "default": "geometry.gun.svtfpp",
+                "fpp": "geometry.gun.svtfpp"
+            },
+            "textures": {
+                "default": "textures/items_3d/svt"
+            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.ate_s_x": "c.is_first_person"
+                },
+                {
+                    "controller.render.ate_s_x2": "!c.is_first_person"
+                }
+            ],
+            "animations": {
+                "semigun": "controller.animation.semigun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.svt.idle",
+                "equip": "animation.svt.equip",
+                "aim": "animation.aek.ads_sights",
+                "sprint": "animation.svt.sprint",
+                "reloading": "animation.avt.reloading",
+                "fire": "animation.gunsvt.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"semigun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

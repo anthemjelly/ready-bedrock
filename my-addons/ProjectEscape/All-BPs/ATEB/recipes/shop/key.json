@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "key_to_money"
+        },
+        "tags": [
+            "shop"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "tag": "ate:key"
+            }
+        },
+        "unlock": [
+            {
+                "tag": "misc_a"
+            }
+        ],
+        "result": {
+            "item": "ate:money",
+            "data": 0,
+            "count": 4
+        }
+    }
+}

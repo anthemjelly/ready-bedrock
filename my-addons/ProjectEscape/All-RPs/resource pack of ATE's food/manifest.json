@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "ATE食物资源包,未经授权禁止用于商业用途",
+    "name": "ATE食物R包",
+    "uuid": "2a5ed6ce-d188-485d-97b0-d73e47d57355",
+    "version": [1,0,0],
+    "min_engine_version": [1,21,130]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "b8b07053-d1db-4025-be59-2d1da9e0b1b8",
+      "version": "1.0.0"
+    }
+  ],
+  "metadata": {
+    "product_type": "addon"
+  },
+    "capabilities": ["pbr"]
+}

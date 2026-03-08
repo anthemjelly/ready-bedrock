@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aug10_4caa349f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:aug10k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo55645",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:aug10",
+      "count": 1
+    }
+  }
+}

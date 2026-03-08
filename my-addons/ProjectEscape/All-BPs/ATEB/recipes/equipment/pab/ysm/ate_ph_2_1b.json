@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ph_2_1b_9c1faaaf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ph_2_1",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:nightvisioninstrument",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:ph_2_1b",
+      "count": 1
+    }
+  }
+}

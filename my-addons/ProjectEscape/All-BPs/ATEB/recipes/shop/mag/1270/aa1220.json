@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipaa12es_f7s1220k5cc"
+    },
+    "tags": [
+      "shop"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:aa1220k",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:money",
+      "count": 9
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "m145_m9930_3603d473"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:m1450k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76251_m993",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:m1450_m993",
+      "count": 1
+    }
+  }
+}

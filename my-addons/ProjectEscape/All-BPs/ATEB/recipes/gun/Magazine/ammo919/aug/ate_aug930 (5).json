@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "aug930_rip_4de074e8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:aug930k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo919_rip",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:aug930_rip",
+      "count": 1
+    }
+  }
+}

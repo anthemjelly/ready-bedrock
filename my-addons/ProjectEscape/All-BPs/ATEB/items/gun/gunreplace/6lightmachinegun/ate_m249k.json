@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ate:m249k",
+      "menu_category": {
+        "category": "items",
+        "group": "group.gun6.name"
+      }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": false,
+      "minecraft:use_modifiers": {
+        "movement_modifier": 1,
+        "use_duration": 9999
+      },
+      "minecraft:allow_off_hand": false,
+      "minecraft:icon": "ate:m249k",
+      "minecraft:display_name": {
+        "value": "M249"
+      },
+      "minecraft:damage": 5,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "sword"
+      },
+      "tag:minecraft:transform_materials": {}
+    }
+  }
+}

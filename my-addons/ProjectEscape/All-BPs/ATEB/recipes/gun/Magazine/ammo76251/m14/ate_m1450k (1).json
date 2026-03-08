@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "m1450_m62_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:m1450_m62",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:m1450k","count": 1},
+    { "item": "ate:ammo76251_m62","count": 5}
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ax505_slap_6c0c437a"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ax505k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo12799_slap",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:ax505_slap",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:ek3",
+            "materials": {
+                "default": "entity_alphatest",
+                "visor": "entity_alphablend"
+            },
+            "textures": {
+                "default": "textures/egg/ek1"
+            },
+            "geometry": {
+                "default": "geometry.ate_ek"
+            },
+            "scripts": {
+                "animate": [
+                    "offset"
+                ]
+            },
+            "animations": {
+                "offset": "animation.armor.helmet.offset"
+            },
+            "render_controllers": [
+                "controller.render.head_helmet"
+            ]
+        }
+    }
+}

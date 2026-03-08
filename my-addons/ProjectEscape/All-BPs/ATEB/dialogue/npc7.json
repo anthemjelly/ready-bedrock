@@ -1,0 +1,58 @@
+{"format_version":"1.17","minecraft:npc_dialogue":{"scenes":[
+{"scene_tag":"ate:a","npc_name":"","text":"你好，这里是饭店，要吃点什么吗",
+"buttons":[
+{"name":"询问饭店卖些什么...","commands":["/dialogue open @s @initiator ate:b"]},
+{"name":"询问她关于饭店...","commands":["/dialogue open @s @initiator ate:c"]},
+{"name":"询问关于她的武器...","commands":["/dialogue open @s @initiator ate:f"]},
+{"name":"让我看看菜单吧...","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:b","npc_name":"","text":"我这里有一些农作物的种子，和一些食物，我们店里也可以炒菜",
+"buttons":[
+{"name":"你为什么来到这了","commands":["/dialogue open @s @initiator ate:d"]},
+{"name":"你为什么抱着一把枪","commands":["/dialogue open @s @initiator ate:i"]},
+{"name":"再见","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:c","npc_name":"","text":"嗯...在庭海被封锁之前，我是一个厨师，我们的大本营需要一个吃饭的地方，所以我来这里帮忙了",
+"buttons":[
+{"name":"你这都卖些什么","commands":["/dialogue open @s @initiator ate:e"]},
+{"name":"你为什么抱着一把枪","commands":["/dialogue open @s @initiator ate:j"]},
+{"name":"让我看看商品吧","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:d","npc_name":"","text":"嗯...在庭海被封锁之前，我是一个厨师，我们的大本营需要一个吃饭的地方，所以我来这里帮忙了",
+"buttons":[
+{"name":"你为什么抱着一把枪","commands":["/dialogue open @s @initiator ate:k"]},
+{"name":"再见","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:e","npc_name":"","text":"我这里有一些农作物的种子，和一些食物，我们店里也可以炒菜",
+"buttons":[
+{"name":"你为什么抱着一把枪","commands":["/dialogue open @s @initiator ate:k"]},
+{"name":"再见","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:f","npc_name":"","text":"寄生虫溜进大本营也是常有的事嘛...",
+"buttons":[
+{"name":"你这都卖些什么","commands":["/dialogue open @s @initiator ate:g"]},
+{"name":"你为什么来到这了","commands":["/dialogue open @s @initiator ate:n"]},
+{"name":"再见","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:g","npc_name":"","text":"我这里有一些农作物的种子，和一些食物，我们店里也可以炒菜",
+"buttons":[
+{"name":"你为什么来到这了","commands":["/dialogue open @s @initiator ate:l"]},
+{"name":"再见","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:h","npc_name":"","text":"嗯...在庭海被封锁之前，我是一个厨师，我们的大本营需要一个吃饭的地方，所以我来这里帮忙了",
+"buttons":[
+{"name":"再见","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:i","npc_name":"","text":"因为这地方也不是非常安全的，在大门对面就是一个繁育之花，有可能会对基地发动攻击，我们目前也拿它没办法",
+"buttons":[
+{"name":"你为什么来到这了","commands":["/dialogue open @s @initiator ate:h"]},
+{"name":"再见","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:j","npc_name":"","text":"因为这地方也不是非常安全的，在大门对面就是一个繁育之花，有可能会对基地发动攻击，我们目前也拿它没办法",
+"buttons":[
+{"name":"你这都卖些什么","commands":["/dialogue open @s @initiator ate:m"]},
+{"name":"再见","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:k","npc_name":"","text":"寄生虫溜进大本营也是常有的事嘛...",
+"buttons":[
+{"name":"再见","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:l","npc_name":"","text":"嗯...在庭海被封锁之前，我是一个厨师，我们的大本营需要一个吃饭的地方，所以我来这里帮忙了",
+"buttons":[
+{"name":"再见","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:m","npc_name":"","text":"嗯...在庭海被封锁之前，我是一个厨师，我们的大本营需要一个吃饭的地方，所以我来这里帮忙了",
+"buttons":[
+{"name":"再见","commands":["/event entity @s ate:trader"]}]},
+{"scene_tag":"ate:n","npc_name":"","text":"寄生虫溜进大本营也是常有的事嘛...",
+"buttons":[
+{"name":"你这都卖些什么","commands":["/dialogue open @s @initiator ate:m"]},
+{"name":"再见","commands":["/event entity @s ate:trader"]}]}]}}

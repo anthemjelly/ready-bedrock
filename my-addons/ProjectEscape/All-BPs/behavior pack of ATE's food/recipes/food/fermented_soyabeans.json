@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:fermented_soyabeans"
+    },
+    "tags": [ "fermentor" ],
+    "pattern": ["PP"],
+    "key": {
+      "P": {
+        "item": "ate:pea"
+      }
+    },
+    "result": {
+      "item": "ate:fermented_soyabeans",
+      "count": 2
+    }
+  }
+}

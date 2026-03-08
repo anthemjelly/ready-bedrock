@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "qbz75_d130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:qbz75",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:qbz75k","count": 1},
+    { "item": "ate:ammo5842","count": 7}
+    ]
+  }
+}

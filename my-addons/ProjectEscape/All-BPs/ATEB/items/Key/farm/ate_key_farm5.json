@@ -1,0 +1,30 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ate:key_farm5",
+            "menu_category": {
+                "category": "items",
+                "group": "group.key.name"
+            }
+        },
+        "components": {
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 8,
+            "minecraft:allow_off_hand": false,
+            "minecraft:icon": "ate:key_farm5",
+            "minecraft:display_name": {
+                "value": "§d农场旅馆仓库钥匙"
+            },
+            "tag:minecraft:transform_materials": {},
+            "minecraft:tags": {
+                "tags": [
+                    "ate:key"
+                ]
+            },
+            "minecraft:custom_components": [
+                "ate_key_farm5:trigger"
+            ]
+        }
+    }
+}

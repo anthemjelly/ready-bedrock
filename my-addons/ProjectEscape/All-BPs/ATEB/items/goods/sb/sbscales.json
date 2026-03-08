@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ate:sbscales",
+            "menu_category": {
+                "category": "items",
+                "group": "group.sb.name"
+            }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 4,
+      "minecraft:glint": false,
+      "minecraft:allow_off_hand": false,
+      "minecraft:icon": "sbscales",
+      "minecraft:display_name": {
+        "value": "鳞片"
+      },
+      "tag:minecraft:transform_materials": {},
+      "minecraft:tags": {
+        "tags": [
+          "ate:parasite"
+        ]
+      },
+      "minecraft:custom_components": [
+        "ate:fw"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "g350_m993_17de87fc"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:g350k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76251_m993",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:g350_m993",
+      "count": 1
+    }
+  }
+}

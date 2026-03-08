@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ate:lighter",
+            "menu_category": {
+                "category": "items",
+                "group": "group.fvv.name"
+            }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 8,
+      "minecraft:fuel": {
+                "duration": 8
+            },
+      "minecraft:allow_off_hand": false,
+      "minecraft:icon": "ate:lighter",
+      "minecraft:display_name": {
+        "value": "[8]Lighter/打火机\n§7估价:20\n燃烧时长:8"
+      },
+      "tag:minecraft:transform_materials": {},
+      "minecraft:tags": {
+        "tags": [
+          "ate:bigfw"
+        ]
+      },
+      "minecraft:custom_components": [
+        "ate_lighter:trigger"
+      ]
+    }
+  }
+}

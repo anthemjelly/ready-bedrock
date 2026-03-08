@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mp740_ap_c140a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:mp740k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo4640_ap",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:mp740_ap",
+      "count": 1
+    }
+  }
+}

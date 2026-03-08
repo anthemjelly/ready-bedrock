@@ -1,0 +1,27 @@
+{"pools":[
+{"rolls":1,"entries":[
+{"type":"item","weight":3,"name":"ate:qbz191k","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:qbu191k","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]}
+]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:sheilrxw","functions":[{"function":"set_count","count":1},{"function":"set_data","data":0},{"function":"set_lore","lore":["悠季瀬奈的信物","一封被浸湿的情书","此物品來自對局內"]}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":3,"name":"ate:qbz30_bvp88","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:qbz30_dbu141","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:pocketwatch","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:udisk","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":14,"name":"ate:bloodtransfusiontools","functions":[{"function":"set_count","count":{"min":1,"max":2}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:gamehandle","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:diamondring","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:key_fortress1","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":11,"name":"ate:key_fortress2","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:ph_4_3","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:ph_4_3a","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:ph_4_1a","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:ph_4_1","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:pc_5_2","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:pc_4_1","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]}]}
+]}

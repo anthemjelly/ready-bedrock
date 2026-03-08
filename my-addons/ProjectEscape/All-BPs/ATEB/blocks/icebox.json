@@ -1,0 +1,91 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:block": {
+        "description": {
+            "identifier": "ate:icebox",
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ]
+                }
+            },
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:selection_box": {
+                "origin": [
+                    -3.0,
+                    0.0,
+                    -5.0
+                ],
+                "size": [
+                    6.0,
+                    14.0,
+                    10.0
+                ]
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -3.0,
+                    0.0,
+                    -5.0
+                ],
+                "size": [
+                    6.0,
+                    14.0,
+                    10.0
+                ]
+            },
+            "minecraft:geometry": "geometry.ate_icebox",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "ate_icebox",
+                    "ambient_occlusion": true,
+                    "face_dimming": true,
+                    "render_method": "opaque"
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pp1930_7n31_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:pp1930_7n31",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:pp1930k","count": 1},
+    { "item": "ate:ammo919_7n31","count": 3}
+    ]
+  }
+}

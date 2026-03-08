@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:parasiteflower",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "vindicator"
+      },
+      "textures": {
+        "default": "textures/entity/Parasite/ate_parasiteflower"
+      },
+      "geometry": {
+        "default": "geometry.ate_parasiteflower"
+      },
+      "spawn_egg": {
+        "base_color": "#51EA77",
+        "overlay_color": "#0F0D0D"
+      },
+      "scripts": {
+        "scale": "0.9375",
+        "animate": [
+          "vindicator_base",
+          "vindicator_walk",
+          "controller_look_at_target",
+          "controller_vindicator_base",
+          "controller_riding"
+        ]
+      },
+      "animations": {
+        "look_at_target_default": "animation.ate_parasiteflower.look_at_target.default",
+        "look_at_target_gliding": "animation.ate_parasiteflower.look_at_target.gliding",
+        "look_at_target_swimming": "animation.ate_parasiteflower.look_at_target.swimming",
+        "riding.arms": "animation.ate_parasiteflower.riding.arms",
+        "riding.legs": "animation.ate_parasiteflower.riding.legs",
+        "vindicator_base": "animation.ate_parasiteflower.base",
+        "vindicator_attack": "animation.ate_parasiteflower.attack",
+        "vindicator_walk": "animation.ate_parasiteflower.walk",
+        "celebrating": "animation.ate_parasiteflower.celebrating",
+        "controller_look_at_target": "controller.animation.humanoid.look_at_target",
+        "controller_vindicator_base": "controller.animation.ate_parasiteflower.base",
+        "controller_riding": "controller.animation.humanoid.riding",
+        "vindicator_hand_attack": "animation.ate_parasiteflower.hand_attack"
+      },
+      "render_controllers": [
+        "controller.render.vindicator"
+      ],
+      "enable_attachables": true,
+      "hide_armor": true
+    }
+  }
+}

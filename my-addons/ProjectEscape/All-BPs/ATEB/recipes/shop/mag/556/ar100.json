@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ar100gotoshopbezjibianhengmoney"
+    },
+    "tags": [
+      "shop"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ar100k",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:money",
+      "count": 30
+    }
+  }
+}

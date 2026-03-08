@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ash12_c130a25_ps12b8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ash1220_ps12b",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:ash1220k","count": 1},
+    { "item": "ate:ammo12755_ps12b","count": 2}
+    ]
+  }
+}

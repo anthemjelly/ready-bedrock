@@ -1,0 +1,7 @@
+{
+    "ui_defs": [
+        "ui/nvgui.json",
+        "ui/glassui.json",
+        "ui/zbtui.json"
+]
+}

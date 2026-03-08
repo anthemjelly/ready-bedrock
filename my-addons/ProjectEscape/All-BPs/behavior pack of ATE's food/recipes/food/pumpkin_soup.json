@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:pumpkin_soup"
+    },
+    "tags": [ "pot" ],
+    "pattern": [ "PPP", "AC"],
+    "key": {
+      "C": {
+        "item": "ate:cabbage_leaf"
+      },
+      "P": {
+        "item": "ate:pumpkin_slice"
+      },
+      "A": {
+        "item": "ate:water"
+      }
+    },
+    "result": [
+      {
+        "item": "ate:pumpkin_soup"
+      }
+    ]
+  }
+}

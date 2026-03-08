@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "d8k_84_jsp1d294d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:d8_jsp",
+        "data": 0
+      }
+    },
+    "result": [{
+      "item": "ate:d8k",
+      "count": 1
+    },{"item":"ate:ammo44_jsp","count":1}]
+  }
+}

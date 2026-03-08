@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mp550_ap_b34cc574"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:mp550k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo919_ap",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:mp550_ap",
+      "count": 1
+    }
+  }
+}

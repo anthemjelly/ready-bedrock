@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_de7e0ff6"
+    },
+    "tags": [
+      "shop"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:bag12k",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:money",
+      "count": 6
+    },
+    "unlock": []
+  }
+}

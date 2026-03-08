@@ -1,0 +1,13 @@
+{"id":"1749116426001","name":"Drop 1749116426001","pools":[
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:timesxw","functions":[{"function":"set_count","count":1},{"function":"set_data","data":0},{"function":"set_lore","lore":["阿时梓的信物","一把旧刀，上面结成块的锈斑和划满纵横的血渍交错在了一起","此物品來自對局內"]}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:m1894k","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.6,"max":0.9}}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:ammo44_jsp","functions":[{"function":"set_count","count":{"min":1,"max":3}},{"function":"set_data","data":0}]},
+{"type":"item","weight":2,"name":"ate:ammo44_sjhp","functions":[{"function":"set_count","count":{"min":1,"max":3}},{"function":"set_data","data":0}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:phone","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":14,"name":"ate:bloodtransfusiontools","functions":[{"function":"set_count","count":{"min":1,"max":2}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:tzwm18","functions":[{"function":"set_count","count":{"min":3,"max":6}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:gamehandle","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]}]}]}

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ate_ph_6_3",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 28, -4], "size": [8, 4, 8], "inflate": 1, "uv": [0, 0]},
+						{"origin": [-4, 25, -1], "size": [8, 1, 5], "inflate": 1, "uv": [0, 28]},
+						{"origin": [-4, 28, -4], "size": [8, 1, 8], "inflate": 1.2, "uv": [31, 19]},
+						{"origin": [-5, 26, -8], "size": [10, 0, 6], "pivot": [0, 26, -6], "rotation": [70, 0, 0], "uv": [2, 14]}
+					]
+				}
+			]
+		}
+	]
+}

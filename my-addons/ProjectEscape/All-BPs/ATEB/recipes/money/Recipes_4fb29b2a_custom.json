@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_b35fbbb2"
+    },
+    "tags": [
+      "crafting_table",
+      "shop"
+    ],
+    "pattern": [
+      "AAA",
+      "AA "
+    ],
+    "key": {
+      "A": {
+        "item": "ate:money20",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:money100",
+      "count": 1
+    }
+  }
+}

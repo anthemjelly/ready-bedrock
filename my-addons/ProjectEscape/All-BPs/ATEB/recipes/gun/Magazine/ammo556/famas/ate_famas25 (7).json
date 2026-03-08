@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "famas25_ap_4b439dae"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:famas25k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo55645_ap",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:famas25_ap",
+      "count": 1
+    }
+  }
+}

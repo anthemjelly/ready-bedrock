@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:fried_pork_chop"
+    },
+    "tags": [
+      "pot"
+    ],
+    "pattern": [
+      "PW",
+      "S"
+    ],
+    "key": {
+      "P": {
+        "item": "ate:pork"
+      },
+      "S": {
+        "item": "ate:potato_starch"
+      },
+      "W": {
+        "item": "ate:water"
+      }
+    },
+    "result": [
+      {
+        "item": "ate:fried_pork_chop"
+      }
+    ]
+  }
+}

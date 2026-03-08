@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ump4525_a03b9c61"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ump4525k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo45",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:ump4525",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:pp19k",
+            "geometry": {
+                "default": "geometry.gun.pp19fpp",
+                "fpp": "geometry.gun.pp19fpp"            },
+            "textures": {
+                "default": "textures/items_3d/pp19"            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"}            ],
+            "animations": {
+                "gun": "controller.animation.gun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.ak74u.idle",
+                "equip": "animation.ak74u.equip",
+                "aim": "animation.ak74u.ads_sights",
+                "sprint": "animation.ak74u.sprint",
+                "reloading": "animation.ak74u.reloading",
+                "fire": "animation.gunak74u.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"gun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

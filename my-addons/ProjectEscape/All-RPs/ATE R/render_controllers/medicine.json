@@ -1,0 +1,29 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.ate_yb": {
+            "geometry": "geometry.yb1",
+            "textures": [
+                "textures/items/medicine/yb1"
+            ],
+            "materials": [
+                {
+                    "name": "material.default",
+                    "blend_mode": "alpha"
+                }
+            ]
+        },
+        "controller.render.ate_yb_no": {
+            "geometry": "geometry.yb1",
+            "textures": [
+                "textures/items/medicine/yb1_no"
+            ],
+            "materials": [
+                {
+                    "name": "material.default",
+                    "blend_mode": "alpha"
+                }
+            ]
+        }
+    }
+}

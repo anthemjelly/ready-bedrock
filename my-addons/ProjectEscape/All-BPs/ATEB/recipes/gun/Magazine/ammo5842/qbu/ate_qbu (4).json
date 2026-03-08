@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "qbu8820_5222_dvc123105"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:qbu8820k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo5842_dvc12",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:qbu8820_dvc12",
+      "count": 1
+    }
+  }
+}

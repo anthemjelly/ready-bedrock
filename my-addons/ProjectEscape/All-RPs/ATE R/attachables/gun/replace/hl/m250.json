@@ -1,0 +1,44 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:m250k",
+            "geometry": {
+                "default": "geometry.gun.m250fpp",
+                "fpp": "geometry.gun.m250fpp",
+                "scope": "geometry.gun.scope"
+            },
+            "textures": {
+                "default": "textures/items_3d/m250",
+                "scope_tex": "textures/scope"
+            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"},
+                {"controller.render.scope": "c.is_first_person"}
+            ],
+            "animations": {
+                "gun": "controller.animation.gun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.m250.idle",
+                "equip": "animation.m250.equip",
+                "aim": "animation.aek.ads_sights",
+                "sprint": "animation.m250.sprint",
+                "reloading": "animation.m250.reloading",
+                "fire": "animation.gunm250.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"gun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

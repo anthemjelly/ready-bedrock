@@ -1,0 +1,35 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "ate:key_forest3",
+            "menu_category": {
+                "category": "items",
+                "group": "group.key.name"
+            }
+        },
+        "components": {
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 8,
+            "minecraft:glint": false,
+            "minecraft:use_modifiers": {
+                "movement_modifier": 1,
+                "use_duration": 0
+            },
+            "minecraft:allow_off_hand": false,
+            "minecraft:icon": "forest3",
+            "minecraft:display_name": {
+                "value": "§e森林酒店一层办公室钥匙"
+            },
+            "tag:minecraft:transform_materials": {},
+            "minecraft:tags": {
+                "tags": [
+                    "ate:key"
+                ]
+            },
+            "minecraft:custom_components": [
+                "ate_key_block1:trigger"
+            ]
+        }
+    }
+}

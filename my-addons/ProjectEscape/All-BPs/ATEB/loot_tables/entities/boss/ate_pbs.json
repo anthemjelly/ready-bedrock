@@ -1,0 +1,19 @@
+{"pools":[
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:pbsxw","functions":[{"function":"set_count","count":1},{"function":"set_data","data":0},{"function":"set_lore","lore":["白琳的信物","一个日记本，上面记着一些闲杂的琐事","此物品來自對局內"]}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":8,"name":"ate:h4k","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.6,"max":0.9}}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:ar60_m855a1","functions":[{"function":"set_count","count":{"min":1,"max":4}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:ar30_m855a1","functions":[{"function":"set_count","count":{"min":1,"max":4}},{"function":"set_data","data":0}]}
+]},
+{"rolls":1,"entries":[
+{"type":"item","weight":11,"name":"ate:lighteriron","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:stampalbum","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":3,"name":"ate:tzwm67","functions":[{"function":"set_count","count":{"min":2,"max":4}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:insulinpump","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]}]}
+,{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:pc_5_4","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.6}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]}]}
+
+
+]}

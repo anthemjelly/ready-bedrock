@@ -1,0 +1,115 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.gun.m32fpp",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 11,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "gunfpp",
+					"pivot": [-2, 21.6, -3],
+					"binding": "q.item_slot_to_bone_name('head')",
+					"cubes": [
+						{"origin": [-3, 22.6, -15], "size": [1, 3, 4], "uv": [26, 30]},
+						{"origin": [-3, 24.8, -11], "size": [1, 1, 6], "uv": [24, 23]},
+						{"origin": [-3, 19.1, -14], "size": [1, 4, 1], "inflate": 0.1, "uv": [24, 37]}
+					]
+				},
+				{
+					"name": "rotate",
+					"parent": "gunfpp",
+					"pivot": [-2.5, 24.6, -6],
+					"cubes": [
+						{"origin": [-3, 22.2, -5.8], "size": [1, 2, 3], "inflate": 0.1, "pivot": [-3, 23.6, -6], "rotation": [-15, 0, 0], "uv": [10, 36]},
+						{"origin": [-3, 21, -6], "size": [1, 1, 2], "uv": [28, 37]},
+						{"origin": [-3, 19.1, -5], "size": [1, 4, 2], "pivot": [-3, 23.6, -3], "rotation": [30, 0, 0], "uv": [18, 36]},
+						{"origin": [-5, 19.6, -6.2], "size": [5, 5, 1], "inflate": -0.2, "uv": [28, 7]}
+					]
+				},
+				{
+					"name": "stock_def",
+					"parent": "rotate",
+					"pivot": [-3, 24.6, -5],
+					"rotation": [-5, 0, 0],
+					"cubes": [
+						{"origin": [-3, 24.1, -6], "size": [1, 1, 5], "uv": [14, 30]},
+						{"origin": [-3, 24.1, -1], "size": [1, 1, 4], "inflate": 0.3, "uv": [0, 33]},
+						{"origin": [-3, 22.1, 2.4], "size": [1, 3, 1], "inflate": 0.2, "uv": [4, 38]},
+						{"origin": [-3, 21.8, 2], "size": [1, 3, 1], "pivot": [-3, 22.1, 2], "rotation": [50, 0, 0], "uv": [0, 38]}
+					]
+				},
+				{
+					"name": "barrel",
+					"parent": "gunfpp",
+					"pivot": [-2.5, 24.1, -1],
+					"rotation": [0, 0, -45],
+					"cubes": [
+						{"origin": [-3, 23.6, -18], "size": [1, 1, 3], "inflate": 0.3, "uv": [14, 26]},
+						{"origin": [-3.6, 23, -15.1], "size": [2, 2, 5], "inflate": 0.1, "uv": [0, 26]}
+					]
+				},
+				{
+					"name": "mag",
+					"parent": "gunfpp",
+					"pivot": [-2.5, 22.1, -7.5],
+					"cubes": [
+						{"origin": [-5, 19.6, -9.6], "size": [5, 5, 4], "inflate": -0.2, "uv": [24, 14]},
+						{"origin": [-5, 19.6, -10.5], "size": [5, 5, 2], "uv": [28, 0]}
+					]
+				},
+				{
+					"name": "shell1",
+					"parent": "mag",
+					"pivot": [-2.5, 22.1, -7.5],
+					"cubes": [
+						{"origin": [-4, 20.6, -7], "size": [3, 3, 1], "inflate": 0.5, "uv": [36, 30]}
+					]
+				},
+				{
+					"name": "shell2",
+					"parent": "mag",
+					"pivot": [-2.5, 22.1, -7.5],
+					"cubes": [
+						{"origin": [-4, 20.6, -7], "size": [3, 3, 1], "inflate": 0.5, "uv": [36, 34]}
+					]
+				},
+				{
+					"name": "laser",
+					"parent": "gunfpp",
+					"pivot": [-2, 22.6, -3]
+				},
+				{
+					"name": "laser_beam",
+					"parent": "laser",
+					"pivot": [-3, 25.6, -16],
+					"rotation": [0, 0, -45]
+				},
+				{
+					"name": "g_hand_r",
+					"parent": "gunfpp",
+					"pivot": [-3, 20.6, -4],
+					"rotation": [-15, -5, 2.5],
+					"cubes": [
+						{"origin": [-5.5, 18.6, -5], "size": [4, 4, 8], "uv": [0, 14]}
+					]
+				},
+				{
+					"name": "g_hand_l",
+					"parent": "gunfpp",
+					"pivot": [-3, 22.6, -12],
+					"rotation": [-40, 55, -5],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-3.5, 18.6, -13], "size": [4, 4, 10], "uv": [0, 0], "mirror": false}
+					]
+				}
+			]
+		}
+	]
+}

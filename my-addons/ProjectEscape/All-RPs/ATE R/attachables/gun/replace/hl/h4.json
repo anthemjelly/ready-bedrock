@@ -1,0 +1,44 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:h4k",
+            "geometry": {
+                "default": "geometry.gun.h4fpp",
+                "fpp": "geometry.gun.h4fpp",
+                "scope": "geometry.gun.scope"
+            },
+            "textures": {
+                "default": "textures/items_3d/h4",
+                "scope_tex": "textures/scope"
+            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"},
+                {"controller.render.scope": "c.is_first_person"}
+            ],
+            "animations": {
+                "gun": "controller.animation.gun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.m4.idle",
+                "equip": "animation.m4.equip",
+                "aim": "animation.aek.ads_sights",
+                "sprint": "animation.m4.sprint",
+                "reloading": "animation.m4.reloading",
+                "fire": "animation.gunaek.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"gun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

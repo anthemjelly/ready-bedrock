@@ -1,0 +1,29 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.yb": {
+			"states": {
+				"equip": {
+					"animations": ["equip"],
+					"transitions": [
+						{"default": "1"}
+					],
+					"blend_transition": 0.1
+				},
+				"default": {
+					"transitions": [
+						{"use": "q.is_using_item"}
+					],
+					"blend_transition": 0.1
+				},
+				"use": {
+					"animations": ["use"],
+					"transitions": [
+						{"default": "!q.is_using_item"}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

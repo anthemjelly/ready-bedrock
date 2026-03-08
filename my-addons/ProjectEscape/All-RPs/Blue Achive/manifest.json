@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "来自 BlueAchive的角色手办!!",
+    "name": "BlueAchive",
+    "uuid": "e2ca7d00-0000-4a3e-e120-449c80243357",
+    "version": [1, 1, 0],
+    "min_engine_version": [1, 20, 50]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "60d2d3d8-4e26-4b1a-8c62-fac948ab4d46",
+      "version": [1, 1, 0]
+    }
+  ],
+  "dependencies": []
+}

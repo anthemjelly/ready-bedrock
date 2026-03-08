@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ate:wasabi",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:compostable": {
+        "composting_chance": 30
+      },
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 64,
+      "minecraft:glint": false,
+      "minecraft:custom_components": [
+        "pa_change_me2:trigger"
+      ],
+      "minecraft:allow_off_hand": false,
+      "minecraft:display_name": {
+        "value": "山葵"
+      },
+      "minecraft:icon": "wasabi"
+    }
+  }
+}

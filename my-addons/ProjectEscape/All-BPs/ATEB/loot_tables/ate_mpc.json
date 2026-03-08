@@ -1,0 +1,16 @@
+{"id":"1736217275994","name":"computer","pools":[
+{"rolls":1,"entries":[
+{"type":"item","weight":19,"name":"ate:circuitboard","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0},{"function":"set_lore","lore":["一块标准规格的电路板。基板泛黄，边缘有磨损","[->","此物品來自對局內"]}]},
+{"type":"item","weight":13,"name":"ate:sound","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0},{"function":"set_lore","lore":["一个老旧的音响","[->","此物品來自對局內"]}]},
+{"type":"item","weight":14,"name":"ate:cpu","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0},{"function":"set_lore","lore":["一枚拆自旧主板的处理器","[->","此物品來自對局內"]}]},
+{"type":"item","weight":24,"name":"ate:memorystick","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":8,"name":"ate:udisk","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0},{"function":"set_lore","lore":["加密的U盘，里面可能存有重要资料","[->","此物品來自對局內"]}]},
+{"type":"item","weight":3,"name":"ate:militarysc","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0},{"function":"set_lore","lore":["加密的U盘，里面可能存有重要资料","[->","此物品來自對局內"]}]},
+{"type":"item","weight":32,"name":"ate:dvd","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0},{"function":"set_lore","lore":["这是一个DVD","[->","此物品來自對局內"]}]},
+{"type":"item","weight":18,"name":"ate:powersupply","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":8,"name":"ate:mechanicalharddisk","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":19,"name":"ate:gamehandle","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:videocard","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0},{"function":"set_lore","lore":["只要将此显卡装在你的电脑上，你就可以流畅的运行扑克牌游戏","[->","此物品來自對局內"]}]},
+{"type":"item","weight":1,"name":"ate:server","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0},{"function":"set_lore","lore":["这可能是一款游戏，运用，或者网站的服务器后台","[->","此物品來自對局內"]}]},
+{"type":"item","weight":1,"name":"ate:vectorprocessor","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:notebookcomputer","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]}]}]}

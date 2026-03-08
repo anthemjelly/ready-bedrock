@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "p9050_r37f_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:p9050_r37f",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:p9050k","count": 1},
+    { "item": "ate:ammo5728_r37f","count": 5}
+    ]
+  }
+}

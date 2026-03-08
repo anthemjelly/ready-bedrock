@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_90d999b4"
+    },
+    "tags": [
+      "shop"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:svdk",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:money",
+      "count": 30
+    }
+  }
+}

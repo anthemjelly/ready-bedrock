@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cpw30_ss198_c130a238"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:cpw30_ss198",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:cpw30k","count": 1},
+    { "item": "ate:ammo5728_ss198","count": 3}
+    ]
+  }
+}

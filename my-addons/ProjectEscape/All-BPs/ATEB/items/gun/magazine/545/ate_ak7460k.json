@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ate:ak7460k",
+            "menu_category": {
+                "category": "items",
+                "group": "group.mag.name"
+            }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 2,
+      "minecraft:glint": false,
+      "minecraft:use_modifiers": {
+        "movement_modifier": 1,
+        "use_duration": 0
+      },
+      "minecraft:allow_off_hand": true,
+      "minecraft:icon": "ate:ak7460k",
+      "minecraft:display_name": {
+        "value": "6L31 5.45x39mm 60发弹匣\n§7可装填弹药:5.45x39mm"
+      },
+      "tag:minecraft:transform_materials": {},
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:transform_materials"
+        ]
+      },
+      "minecraft:custom_components": [
+        "gun:a54539mag"
+      ]
+    }
+  }
+}

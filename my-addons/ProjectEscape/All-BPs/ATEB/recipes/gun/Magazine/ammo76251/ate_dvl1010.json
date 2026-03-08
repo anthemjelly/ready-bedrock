@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dvl1010_4fa3db90"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:dvl1010k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76251",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:dvl1010",
+      "count": 1
+    }
+  }
+}

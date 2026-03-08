@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "apb8_57a2fea8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:apb8k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo918",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:apb8",
+      "count": 1
+    }
+  }
+}

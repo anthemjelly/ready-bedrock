@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "g1150_2efe3f2c"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    
+    ],
+    "key": {
+      "A": {
+        "item": "ate:g1150k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo47333",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:g1150",
+      "count": 1
+    }
+  }
+}

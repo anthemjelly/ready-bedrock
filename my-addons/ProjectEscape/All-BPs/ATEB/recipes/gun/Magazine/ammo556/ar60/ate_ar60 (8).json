@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ar60__apc130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ar60_ap",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:ar60k","count": 1},
+    { "item": "ate:ammo55645_ap","count": 6}
+    ]
+  }
+}

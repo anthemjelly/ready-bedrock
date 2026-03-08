@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ate:mutton_skewer",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    },
+    "components": {
+      "minecraft:compostable": {
+        "composting_chance": 30
+      },
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 16,
+      "minecraft:glint": false,
+      "minecraft:food": {
+        "saturation_modifier": 2,
+        "nutrition": 2,
+        "can_always_eat": false,
+        "using_converts_to": "minecraft:stick"
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 1.4,
+        "movement_modifier": 0.35
+      },
+      "minecraft:allow_off_hand": false,
+      "tag:minecraft:is_food": {},
+      "minecraft:use_animation": "eat",
+      "minecraft:icon": "mutton_skewer",
+      "minecraft:display_name": {
+        "value": "生羊肉串"
+      }
+    }
+  }
+}

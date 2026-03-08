@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ppsh4171_b_m855a189fb970"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABB",
+      "BBB",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ppsh4171k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76225_m855a1",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:ppsh4171_m855a1",
+      "count": 1
+    }
+  }
+}

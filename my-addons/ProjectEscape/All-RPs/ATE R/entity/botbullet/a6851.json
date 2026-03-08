@@ -1,0 +1,32 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:client_entity": {
+        "description": {
+            "animations": {
+                "eff": "animation.bullet_p.base"
+            },
+            "geometry": {
+                "default": "geometry.bullet_bot"
+            },
+            "identifier": "ate:a6851_bullet",
+            "materials": {
+                "default": "entity_beam_additive"
+            },            "particle_effects": {
+                "flash": "ate:gunsmoke",
+                "shell": "ate:shell",
+                "trail": "ate:trail"
+            },
+            "render_controllers": [
+                "controller.render.albullet"
+            ],
+            "scripts": {
+                "animate": [
+                    "eff"
+                ]
+            },
+            "textures": {
+                "default": "textures/entity/bullet/yellow"
+            }
+        }
+    }
+}

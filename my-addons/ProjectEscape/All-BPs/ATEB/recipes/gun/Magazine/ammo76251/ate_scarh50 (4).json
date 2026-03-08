@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "scarh50_bpz_be3f2986"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:scarh50k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76251_bpz",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:scarh50_bpz",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:sysakl308",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "husk"
+      },
+      "textures": {
+        "default": "textures/entity/ateentity/ate_sysakl308"
+      },
+      "geometry": {
+        "default": "geometry.ate_sysakl308"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+      "animations": {
+        "humanoid_big_head": "animation.ate_sysakl308.big_head",
+        "look_at_target_default": "animation.ate_sysakl308.look_at_target.default",
+        "look_at_target_gliding": "animation.ate_sysakl308.look_at_target.gliding",
+        "look_at_target_swimming": "animation.ate_sysakl308.look_at_target.swimming",
+        "move": "animation.ate_sysakl308.move",
+        "riding.arms": "animation.ate_sysakl308.riding.arms",
+        "riding.legs": "animation.ate_sysakl308.riding.legs",
+        "holding": "animation.ate_sysakl308.holding",
+        "brandish_spear": "animation.ate_sysakl308.brandish_spear",
+        "charging": "animation.ate_sysakl308.charging",
+        "attack.rotations": "animation.ate_sysakl308.attack.rotations",
+        "sneaking": "animation.ate_sysakl308.sneaking",
+        "bob": "animation.ate_sysakl308.bob",
+        "damage_nearby_mobs": "animation.ate_sysakl308.damage_nearby_mobs",
+        "bow_and_arrow": "animation.ate_sysakl308.bow_and_arrow",
+        "use_item_progress": "animation.ate_sysakl308.use_item_progress",
+        "zombie_attack_bare_hand": "animation.ate_sysakl308.attack_bare_hand",
+        "swimming": "animation.ate_sysakl308.swimming"
+      },
+      "animation_controllers": [
+        {
+          "humanoid_baby_big_head": "controller.animation.ate_sysakl308.baby_big_head"
+        },
+        {
+          "look_at_target": "controller.animation.ate_sysakl308.look_at_target"
+        },
+        {
+          "move": "controller.animation.ate_sysakl308.move"
+        },
+        {
+          "riding": "controller.animation.ate_sysakl308.riding"
+        },
+        {
+          "holding": "controller.animation.ate_sysakl308.holding"
+        },
+        {
+          "brandish_spear": "controller.animation.ate_sysakl308.brandish_spear"
+        },
+        {
+          "charging": "controller.animation.ate_sysakl308.charging"
+        },
+        {
+          "attack": "controller.animation.ate_sysakl308.attack"
+        },
+        {
+          "sneaking": "controller.animation.ate_sysakl308.sneaking"
+        },
+        {
+          "bob": "controller.animation.ate_sysakl308.bob"
+        },
+        {
+          "damage_nearby_mobs": "controller.animation.ate_sysakl308.damage_nearby_mobs"
+        },
+        {
+          "bow_and_arrow": "controller.animation.ate_sysakl308.bow_and_arrow"
+        },
+        {
+          "use_item_progress": "controller.animation.ate_sysakl308.use_item_progress"
+        },
+        {
+          "zombie_attack_bare_hand": "controller.animation.ate_sysakl308.attack_bare_hand"
+        },
+        {
+          "swimming": "controller.animation.ate_sysakl308.swimming"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.husk"
+      ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "base_color": "#FFFFFF",
+        "overlay_color": "#FFFFFF"
+      }
+    }
+  }
+}

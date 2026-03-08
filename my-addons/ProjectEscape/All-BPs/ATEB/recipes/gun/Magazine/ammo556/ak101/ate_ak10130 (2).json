@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ak10130_m855_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ak10130_m855",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:ak10130k","count": 1},
+    { "item": "ate:ammo55645_m855","count": 3}
+    ]
+  }
+}

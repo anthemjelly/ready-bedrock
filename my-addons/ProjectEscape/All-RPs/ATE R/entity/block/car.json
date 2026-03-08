@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:car",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "vindicator"
+      },
+      "textures": {
+        "default": "textures/entity/ateentity/ate_car"
+      },
+      "geometry": {
+        "default": "geometry.ate_car"
+      },
+      "spawn_egg": {
+        "base_color": "#FFFEFD",
+        "overlay_color": "#FF0909"
+      },
+      "scripts": {
+        "scale": "0.9375",
+        "animate": [
+          { "vindicator_walk": "query.ground_speed>0.02 && !query.is_riding" }
+        ]
+      },
+      "animations": {
+        "vindicator_walk": "animation.ate_car.walk"
+      },
+      "render_controllers": [
+        "controller.render.vindicator"
+      ],
+      "enable_attachables": true,
+      "hide_armor": true
+    }
+  }
+}

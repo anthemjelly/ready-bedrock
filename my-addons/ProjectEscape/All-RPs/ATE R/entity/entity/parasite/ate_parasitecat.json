@@ -1,0 +1,65 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:parasitecat",
+      "materials": {
+        "default": "cat"
+      },
+      "textures": {
+        "white": "textures/entity/Parasite/ate_parasitecat",
+        "black": "textures/entity/Parasite/ate_parasitecat",
+        "red": "textures/entity/Parasite/ate_parasitecat",
+        "siamese": "textures/entity/Parasite/ate_parasitecat",
+        "british": "textures/entity/Parasite/ate_parasitecat",
+        "calico": "textures/entity/Parasite/ate_parasitecat",
+        "persian": "textures/entity/Parasite/ate_parasitecat",
+        "ragdoll": "textures/entity/Parasite/ate_parasitecat",
+        "tabby": "textures/entity/Parasite/ate_parasitecat",
+        "jellie": "textures/entity/Parasite/ate_parasitecat",
+        "all_black": "textures/entity/Parasite/ate_parasitecat",
+        "white_tame": "textures/entity/Parasite/ate_parasitecat",
+        "black_tame": "textures/entity/Parasite/ate_parasitecat",
+        "red_tame": "textures/entity/Parasite/ate_parasitecat",
+        "siamese_tame": "textures/entity/Parasite/ate_parasitecat",
+        "british_tame": "textures/entity/Parasite/ate_parasitecat",
+        "calico_tame": "textures/entity/Parasite/ate_parasitecat",
+        "persian_tame": "textures/entity/Parasite/ate_parasitecat",
+        "ragdoll_tame": "textures/entity/Parasite/ate_parasitecat",
+        "tabby_tame": "textures/entity/Parasite/ate_parasitecat",
+        "all_black_tame": "textures/entity/Parasite/ate_parasitecat",
+        "jellie_tame": "textures/entity/Parasite/ate_parasitecat"
+      },
+      "geometry": {
+        "default": "geometry.ate_parasitecat"
+      },
+      "animations": {
+        "sneak": "animation.cat.sneak",
+        "walk": "animation.cat.walk",
+        "sprint": "animation.cat.sprint",
+        "sit": "animation.cat.sit",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cat.baby_transform",
+        "lie_down": "animation.cat.lie_down"
+      },
+      "animation_controllers": [
+        {
+          "look_at_target": "controller.animation.cat.look_at_target"
+        },
+        {
+          "move": "controller.animation.cat.move"
+        },
+        {
+          "baby": "controller.animation.cat.baby"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.cat"
+      ],
+      "spawn_egg": {
+        "base_color": "#EA9A51",
+        "overlay_color": "#FFAD09"
+      }
+    }
+  }
+}

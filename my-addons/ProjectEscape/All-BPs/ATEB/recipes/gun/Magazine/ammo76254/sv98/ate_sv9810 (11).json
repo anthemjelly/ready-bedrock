@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sv9810_00_7n37b8af9d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:sv9810k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76254_7n37",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:sv9810_7n37",
+      "count": 1
+    }
+  }
+}

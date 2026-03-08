@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "akm50_bp_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:akm50_bp",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:akm50k","count": 1},
+    { "item": "ate:ammo76239_bp","count": 5}
+    ]
+  }
+}

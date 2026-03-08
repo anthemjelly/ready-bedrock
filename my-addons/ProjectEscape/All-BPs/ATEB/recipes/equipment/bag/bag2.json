@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_dbag278817e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:bag2",
+        "data": 0
+      }
+    
+      
+    },
+    "result": {
+      "item": "ate:bag2k",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "g50_green_8615d53d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:g50k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo919_green",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:g50_green",
+      "count": 1
+    }
+  }
+}

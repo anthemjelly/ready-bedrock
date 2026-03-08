@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gunsksk2_9999b034"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:sksup",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:sksk",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:sks2k",
+      "count": 1
+    }
+  }
+}

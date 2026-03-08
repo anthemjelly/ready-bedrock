@@ -1,0 +1,34 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ate:ammo5728_ss190",
+                  "menu_category": {
+        "category": "items",
+        "group": "group.ammo.name"
+      }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 24,
+      "minecraft:use_modifiers": {
+        "movement_modifier": 1,
+        "use_duration": 0
+      },
+      "minecraft:allow_off_hand": true,
+      "minecraft:icon": "ate:ammo5728_ss190",
+      "minecraft:display_name": {
+        "value": "§b5.7x28mm SS190(III)\n§7基础伤害:13-20"
+      },
+      "tag:minecraft:transform_materials": {},
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:transform_materials"
+        ]
+      },
+      "minecraft:custom_components": [
+        "ate_ammo5728:trigger"
+      ]
+    }
+  }
+}

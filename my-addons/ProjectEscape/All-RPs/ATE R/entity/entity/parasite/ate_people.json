@@ -1,0 +1,98 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:people",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "husk"
+      },
+      "textures": {
+        "default": "textures/entity/Parasite/ate_people"
+      },
+      "geometry": {
+        "default": "geometry.ate_people"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+      "animations": {
+        "humanoid_big_head": "animation.ate_people.big_head",
+        "look_at_target_default": "animation.ate_people.look_at_target.default",
+        "look_at_target_gliding": "animation.ate_people.look_at_target.gliding",
+        "look_at_target_swimming": "animation.ate_people.look_at_target.swimming",
+        "move": "animation.ate_people.move",
+        "riding.arms": "animation.ate_people.riding.arms",
+        "riding.legs": "animation.ate_people.riding.legs",
+        "holding": "animation.ate_people.holding",
+        "brandish_spear": "animation.ate_people.brandish_spear",
+        "charging": "animation.ate_people.charging",
+        "attack.rotations": "animation.ate_people.attack.rotations",
+        "sneaking": "animation.ate_people.sneaking",
+        "bob": "animation.ate_people.bob",
+        "damage_nearby_mobs": "animation.ate_people.damage_nearby_mobs",
+        "bow_and_arrow": "animation.ate_people.bow_and_arrow",
+        "use_item_progress": "animation.ate_people.use_item_progress",
+        "zombie_attack_bare_hand": "animation.ate_people.attack_bare_hand",
+        "swimming": "animation.ate_people.swimming"
+      },
+      "animation_controllers": [
+        {
+          "humanoid_baby_big_head": "controller.animation.ate_people.baby_big_head"
+        },
+        {
+          "look_at_target": "controller.animation.ate_people.look_at_target"
+        },
+        {
+          "move": "controller.animation.ate_people.move"
+        },
+        {
+          "riding": "controller.animation.ate_people.riding"
+        },
+        {
+          "holding": "controller.animation.ate_people.holding"
+        },
+        {
+          "brandish_spear": "controller.animation.ate_people.brandish_spear"
+        },
+        {
+          "charging": "controller.animation.ate_people.charging"
+        },
+        {
+          "attack": "controller.animation.ate_people.attack"
+        },
+        {
+          "sneaking": "controller.animation.ate_people.sneaking"
+        },
+        {
+          "bob": "controller.animation.ate_people.bob"
+        },
+        {
+          "damage_nearby_mobs": "controller.animation.ate_people.damage_nearby_mobs"
+        },
+        {
+          "bow_and_arrow": "controller.animation.ate_people.bow_and_arrow"
+        },
+        {
+          "use_item_progress": "controller.animation.ate_people.use_item_progress"
+        },
+        {
+          "zombie_attack_bare_hand": "controller.animation.ate_people.attack_bare_hand"
+        },
+        {
+          "swimming": "controller.animation.ate_people.swimming"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.husk"
+      ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "base_color": "#EA5193",
+        "overlay_color": "#FF0909"
+      }
+    }
+  }
+}

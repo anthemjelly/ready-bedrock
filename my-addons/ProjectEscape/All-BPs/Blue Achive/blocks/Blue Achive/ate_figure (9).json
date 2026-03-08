@@ -1,0 +1,73 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ate:block_blueachive9",
+			"menu_category": {
+				"category": "construction"
+			},
+			"states": {
+				"minecraft:cardinal_direction": [2, 3, 4, 5]
+			}
+		},
+		"components": {
+			"minecraft:selection_box": {
+				"origin": [-4.0, 0.0, -4.0],
+				"size": [8.0, 13.0, 8.0]
+			},
+			"minecraft:collision_box": {
+				"origin": [-3.0, 0.0, -3.0],
+				"size": [6.0, 13.0, 6.0]
+			},
+			"minecraft:geometry": "geometry.figureblock",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "blueachive9",
+					"ambient_occlusion": true,
+					"face_dimming": true,
+					"render_method": "alpha_test_single_sided"
+				}
+			},
+			"minecraft:placement_direction": {
+				"enabled_states": ["minecraft:cardinal_direction"]
+			},
+			"minecraft:transformation": {
+				"rotation": [0, "query.cardinal_block_face_rotation", 0]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 2",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 3",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 4",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 5",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			}
+		]
+	}
+}

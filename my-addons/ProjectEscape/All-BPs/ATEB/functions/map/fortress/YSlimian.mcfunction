@@ -1,0 +1,26 @@
+say 军械库阀门开始供电，全体进入戒备状态
+summon ate:ys76239 1074.38 9.00 -1185.32
+summon ate:ys308 1074.38 9.00 -1185.32
+summon ate:farm762392 1074.38 9.00 -1185.32
+summon ate:time 1087.36 11.00 -1180.87
+summon ate:ys1270 1074.38 9.00 -1185.32
+summon ate:ys308 1074.38 9.00 -1185.32
+#
+summon ate:nico 1109.56 -63.00 -1070.21
+summon ate:sheilr 1065.69 -59.00 -1081.40
+summon ate:ys308 1109.56 -63.00 -1070.21
+summon ate:farm762392 1109.56 -63.00 -1070.21
+summon ate:ys76239 1109.56 -63.00 -1070.21
+summon ate:ys1270 1109.56 -63.00 -1070.21
+summon ate:farm545392 1109.56 -63.00 -1070.21
+summon ate:farm9392 1109.56 -63.00 -1070.21
+summon ate:farm12702 1109.56 -63.00 -1070.21
+summon ate:farm545392 1109.56 -63.00 -1070.21
+summon ate:farm545392 1109.56 -63.00 -1070.21
+summon ate:farm762542 1109.56 -63.00 -1070.21
+summon ate:farm762392 1065.69 -59.00 -1081.40
+summon ate:farm762392 1065.69 -59.00 -1081.40
+summon ate:farm762392 1065.69 -59.00 -1081.40
+summon ate:farm12702 1109.56 -63.00 -1070.21
+summon ate:ys1270 1109.56 -63.00 -1070.21
+summon ate:ys308 1109.56 -63.00 -1070.21

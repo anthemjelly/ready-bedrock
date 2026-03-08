@@ -1,0 +1,26 @@
+{"pools":[
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:mk14k","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.4,"max":0.7}}]}
+]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:prayxw","functions":[{"function":"set_count","count":1},{"function":"set_data","data":0},{"function":"set_lore","lore":["祈願的信物","裁判的证明，也是审判者的象征","此物品來自對局內"]}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":3,"name":"ate:m1420_m62","functions":[{"function":"set_count","count":{"min":1,"max":3}},{"function":"set_data","data":0}]},
+{"type":"item","weight":2,"name":"ate:m1430_m80","functions":[{"function":"set_count","count":{"min":1,"max":2}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:m1450_m61","functions":[{"function":"set_count","count":{"min":1,"max":2}},{"function":"set_data","data":0}]}]},
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:guitar","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:redbs","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_data","data":0}]},
+{"type":"item","weight":1,"name":"ate:ammo76251_m993","functions":[{"function":"set_count","count":{"min":1,"max":2}},{"function":"set_data","data":0}]},
+{"type":"item","weight":2,"name":"ate:bloodtransfusiontools","functions":[{"function":"set_count","count":{"min":1,"max":2}},{"function":"set_data","data":0}]}
+]},
+
+{"rolls":1,"entries":[
+{"type":"item","weight":1,"name":"ate:pc_6_5","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.5}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]},
+{"type":"item","weight":1,"name":"ate:bag15","functions":[{"function":"set_count","count":{"min":1,"max":1}},{"function":"set_damage","damage":{"min":0.2,"max":0.5}},{"function": "enchant_with_levels","levels": {"min": 0,"max": 21},"treasure": true}]}
+]}
+
+
+
+
+]}

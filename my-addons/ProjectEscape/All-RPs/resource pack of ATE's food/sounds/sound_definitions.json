@@ -1,0 +1,41 @@
+{
+  "mob.ate_parasiteflower.idle": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/ate_parasiteflower/idle/idle1",
+      "sounds/mob/ate_parasiteflower/idle/idle2",
+      "sounds/mob/vindicaion_illager/idle3",
+      "sounds/mob/vindicaon_illager/idle4",
+      "sounds/mob/vindicion_illager/idle5"
+    ]
+  },
+  "mob.ate_parasiteflower.hurt": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/ate_parasiteflower/hurt/hurt1",
+      "sounds/mob/ate_parasiteflower/hurt/hurt2",
+      "sounds/mob/ate_parasiteflower/hurt/hurt3"
+    ]
+  },
+  "mob.ate_parasiteflower.death": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/ate_parasiteflower/death/death1",
+      "sounds/mob/ate_parasiteflower/death/death2"
+    ]
+  },
+  "mob.ate_npc2.hurt": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/ate_npc2/hurt/hurt1",
+      "sounds/mob/ate_npc2/hurt/hurt2",
+      "sounds/mob/ate_npc2/hurt/hurt3"
+    ]
+  },
+    "mob.ate_npc2.death": {
+    "category": " neutral",
+    "sounds": [
+      "sounds/mob/ate_npc2/death/death"
+    ]
+  }
+}

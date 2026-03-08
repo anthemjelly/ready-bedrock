@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mcx30030_ap_4b439dae"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ar30k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo300_ap",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:mcx30030_ap",
+      "count": 1
+    }
+  }
+}

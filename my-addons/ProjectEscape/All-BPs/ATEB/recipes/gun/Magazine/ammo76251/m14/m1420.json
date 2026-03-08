@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_d0unm14b3e657"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "B "
+    ],
+    "key": {
+      "A": {
+        "item": "ate:m1420k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76251",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:m1420",
+      "count": 1
+    }
+  }
+}

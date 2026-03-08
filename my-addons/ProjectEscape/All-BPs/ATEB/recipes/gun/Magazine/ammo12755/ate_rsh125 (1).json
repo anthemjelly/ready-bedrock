@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rsh125__ps12bbfcd8de1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ammo12755_ps12b",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:rsh125_ps12b",
+      "count": 2
+    }
+  }
+}

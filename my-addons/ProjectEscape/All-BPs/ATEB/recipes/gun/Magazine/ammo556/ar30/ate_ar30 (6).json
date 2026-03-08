@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "akr30_mhhhamap258"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "A"
+        ],
+        "key": {
+            "A": {
+                "item": "ate:ar30_ap",
+                "data": 0
+            }
+        },
+        "result": [
+            {
+                "item": "ate:ar30k",
+                "count": 1
+            },
+            {
+                "item": "ate:ammo55645_ap",
+                "count": 3
+            }
+        ]
+    }
+}

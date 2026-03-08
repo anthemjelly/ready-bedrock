@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "m70010_m80_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:m70010_m80",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:m70010k","count": 1},
+    { "item": "ate:ammo76251_m80","count": 1}
+    ]
+  }
+}

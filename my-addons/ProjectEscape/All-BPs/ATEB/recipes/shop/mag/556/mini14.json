@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipmini1420k73"
+    },
+    "tags": [
+      "shop"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:mini1420k",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:money",
+      "count": 1
+    }
+  }
+}

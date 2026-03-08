@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_2c15targetingmoduleb173"
+    },
+    "tags": [
+  
+      "shop"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:targetingmodule",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:moneybig",
+      "count": 45
+    }
+  }
+}

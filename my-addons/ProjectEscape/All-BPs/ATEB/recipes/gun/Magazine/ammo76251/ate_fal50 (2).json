@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fal50_m62_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:fal50_m62",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:fal50k","count": 1},
+    { "item": "ate:ammo76251_m62","count": 5}
+    ]
+  }
+}

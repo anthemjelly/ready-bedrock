@@ -1,0 +1,30 @@
+{
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "g340_m62_f0d21441"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABB",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:g340k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76251_m62",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:g340_m62",
+      "count": 1
+    }
+  }
+}

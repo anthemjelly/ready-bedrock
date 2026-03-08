@@ -1,0 +1,315 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "cabbage": {
+            "textures": "textures/items/corns/cabbage"
+        },
+        "tomato_seed": {
+            "textures": "textures/items/tomato_seed"
+        },
+        "carrot_seed": {
+            "textures": "textures/items/carrot_seed"
+        },
+        "pumpkin_seed": {
+            "textures": "textures/items/pumpkin_seed"
+        },
+        "wheat_seed": {
+            "textures": "textures/items/wheat_seed"
+        },
+        "cabbage_seed": {
+            "textures": "textures/items/cabbage_seed"
+        },
+        "cabbage_leaf": {
+            "textures": "textures/items/corns/cabbage_leaf"
+        },
+        "tomato_icon": {
+            "textures": "textures/items/corns/tomato_icon"
+        },
+        "onion": {
+            "textures": "textures/items/corns/onion"
+        },
+        "corn": {
+            "textures": "textures/items/corns/corn"
+        },
+        "white_radish": {
+            "textures": "textures/items/corns/white_radish"
+        },
+        "peanut": {
+            "textures": "textures/items/corns/peanut"
+        },
+        "scallion": {
+            "textures": "textures/items/corns/scallion"
+        },
+        "toast": {
+            "textures": "textures/items/simplefood/toast"
+        },
+        "tomato_sauce": {
+            "textures": "textures/items/simplefood/tomato_sauce"
+        },
+        "milk_bottle": {
+            "textures": "textures/items/simplefood/milk_bottle"
+        },
+        "pumpkin_slice": {
+            "textures": "textures/items/simplefood/pumpkin_slice"
+        },
+        "rice": {
+            "textures": "textures/items/corns/rice"
+        },
+        "cake_slice": {
+            "textures": "textures/items/complexfood/cake_slice"
+        },
+        "fried_egg": {
+            "textures": "textures/items/simplefood/fried_egg"
+        },
+        "cola": {
+            "textures": "textures/items/simplefood/cola"
+        },
+        "eggplant": {
+            "textures": "textures/items/corns/eggplant"
+        },
+        "hordeum_vulgare": {
+            "textures": "textures/items/corns/hordeum_vulgare"
+        },
+        "cynara_scolymus": {
+            "textures": "textures/items/corns/cynara_scolymus"
+        },
+        "cucumber": {
+            "textures": "textures/items/corns/cucumber"
+        },
+        "drink_can": {
+            "textures": "textures/items/tableware/drink_can"
+        },
+        "pea_pod": {
+            "textures": "textures/items/corns/pea_pod"
+        },
+        "pea": {
+            "textures": "textures/items/corns/pea"
+        },
+        "pumpkin_soup": {
+            "textures": "textures/items/simplefood/pumpkin_soup"
+        },
+        "wheat_dough": {
+            "textures": "textures/items/simplefood/wheat_dough"
+        },
+        "pumpkin_wheat_dough": {
+            "textures": "textures/items/simplefood/pumpkin_wheat_dough"
+        },
+        "pumpkin_chunks": {
+            "textures": "textures/items/simplefood/pumpkin_chunks"
+        },
+        "water": {
+            "textures": "textures/items/simplefood/water"
+        },
+        "pumpkin_pie": {
+            "textures": "textures/items/simplefood/pumpkin_pie"
+        },
+        "ketchup": {
+            "textures": "textures/items/simplefood/ketchup"
+        },
+        "pork": {
+            "textures": "textures/items/meat/pork"
+        },
+        "pork_cube": {
+            "textures": "textures/items/meat/pork_cube"
+        },
+        "pork_skewer": {
+            "textures": "textures/items/meat/pork_skewer"
+        },
+        "cooked_pork": {
+            "textures": "textures/items/meat/cooked_pork"
+        },
+        "mutton": {
+            "textures": "textures/items/meat/mutton"
+        },
+        "cooked_mutton": {
+            "textures": "textures/items/meat/cooked_mutton"
+        },
+        "mutton_cube": {
+            "textures": "textures/items/meat/mutton_cube"
+        },
+        "cooked_mutton_skewer": {
+            "textures": "textures/items/meat/cooked_mutton_skewer"
+        },
+        "cooked_pork_skewer": {
+            "textures": "textures/items/meat/cooked_pork_skewer"
+        },
+        "mutton_skewer": {
+            "textures": "textures/items/meat/mutton_skewer"
+        },
+        "streaky_pork": {
+            "textures": "textures/items/meat/streaky_pork"
+        },
+        "cooked_streaky_pork": {
+            "textures": "textures/items/meat/cooked_streaky_pork"
+        },
+        "cooked_mutton_cube": {
+            "textures": "textures/items/meat/cooked_mutton_cube"
+        },
+        "bean_sprout": {
+            "textures": "textures/items/corns/bean_sprout"
+        },
+        "rolling_pin": {
+            "textures": "textures/items/tableware/rolling_pin"
+        },
+        "mashed_potato": {
+            "textures": "textures/items/simplefood/mashed_potato"
+        },
+        "mortar_and_pestle": {
+            "textures": "textures/items/tableware/mortar_and_pestle"
+        },
+        "fermented_soyabeans": {
+            "textures": "textures/items/corns/fermented_soyabeans"
+        },
+        "apple_jam": {
+            "textures": "textures/items/simplefood/apple_jam"
+        },
+        "apple_pie": {
+            "textures": "textures/items/simplefood/apple_pie"
+        },
+        "salt": {
+            "textures": "textures/items/tableware/salt"
+        },
+        "butter": {
+            "textures": "textures/items/tableware/butter"
+        },
+        "apple_toast": {
+            "textures": "textures/items/simplefood/apple_toast"
+        },
+        "kvass": {
+            "textures": "textures/items/simplefood/kvass"
+        },
+        "cheese": {
+            "textures": "textures/items/simplefood/cheese"
+        },
+        "cheese_parmesan": {
+            "textures": "textures/items/complexfood/cheese_parmesan"
+        },
+        "wasabi": {
+            "textures": "textures/items/corns/wasabi"
+        },
+        "mayonnaise": {
+            "textures": "textures/items/simplefood/mayonnaise"
+        },
+        "jp_mustard": {
+            "textures": "textures/items/simplefood/jp_mustard"
+        },
+        "mustard": {
+            "textures": "textures/items/simplefood/mustard"
+        },
+        "mustard_seed": {
+            "textures": "textures/items/corns/mustard_seed"
+        },
+        "creamy": {
+            "textures": "textures/items/simplefood/creamy"
+        },
+        "purple_potato": {
+            "textures": "textures/items/corns/purple_potato"
+        },
+        "yeast": {
+            "textures": "textures/items/simplefood/yeast"
+        },
+        "creamy_mushroom_fried_pork_chops": {
+            "textures": "textures/items/simplefood/creamy_mushroom_fried_pork_chops"
+        },
+        "purple_potato_baked": {
+            "textures": "textures/items/simplefood/purple_potato_baked"
+        },
+        "steamed_pumpkin_sponge_cake": {
+            "textures": "textures/items/simplefood/steamed_pumpkin_sponge_cake"
+        },
+        "purple_potato_bun": {
+            "textures": "textures/items/simplefood/purple_potato_bun"
+        },
+        "shredded_potato": {
+            "textures": "textures/items/simplefood/shredded_potato"
+        },
+        "shredded_carrot": {
+            "textures": "textures/items/simplefood/shredded_carrot"
+        },
+        "french_fries": {
+            "textures": "textures/items/simplefood/french_fries"
+        },
+        "carrot_and_potato_cake": {
+            "textures": "textures/items/simplefood/carrot_and_potato_cake"
+        },
+        "fried_meat_with_carrot": {
+            "textures": "textures/items/simplefood/fried_meat_with_carrot"
+        },
+        "mashed_pumpkin": {
+            "textures": "textures/items/simplefood/mashed_pumpkin"
+        },
+        "premium_coffee_machine": {
+            "textures": "textures/items/premium_coffee_machine"
+        },
+        "bone_china": {
+            "textures": "textures/items/bone_china"
+        },
+        "oil": {
+            "textures": "textures/items/simplefood/oil"
+        },
+        "shepherd_pie": {
+            "textures": "textures/items/complexfood/shepherd_Pie"
+        },
+        "sweet_berries_jam": {
+            "textures": "textures/items/simplefood/sweet_berries_jam"
+        },
+        "sweet_berries_toast": {
+            "textures": "textures/items/simplefood/sweet_berries_toast"
+        },
+        "sweet_berries_pie": {
+            "textures": "textures/items/simplefood/sweet_berries_pie"
+        },
+        "sweet_flower_brewed_chicken": {
+            "textures": "textures/items/simplefood/sweet_flower_brewed_chicken"
+        },
+        "pork_fillet": {
+            "textures": "textures/items/meat/pork_fillet"
+        },
+        "pig_front_leg": {
+            "textures": "textures/items/meat/pig_front_leg"
+        },
+        "pig_hind_leg": {
+            "textures": "textures/items/meat/pig_hind_leg"
+        },
+        "mushroom_sauce_panfried_pork_fillet": {
+            "textures": "textures/items/meat/mushroom_sauce_panfried_pork_fillet"
+        },
+        "mushroom_sauce": {
+            "textures": "textures/items/simplefood/mushroom_sauce"
+        },
+        "fried_pork_chop": {
+            "textures": "textures/items/meat/fried_pork_chop"
+        },
+        "potato_starch": {
+            "textures": "textures/items/simplefood/potato_starch"
+        },
+        "pig_body": {
+            "textures": "textures/items/pig_body"
+        },
+        "guo_bao_rou": {
+            "textures": "textures/items/meat/guo_bao_rou"
+        },
+        "wine": {
+            "textures": "textures/items/complexfood/wine"
+        },
+        "red_wine": {
+            "textures": "textures/items/complexfood/red_wine"
+        },
+        "white_wine": {
+            "textures": "textures/items/complexfood/white_wine"
+        },
+        "white_grape": {
+            "textures": "textures/items/corns/white_grape"
+        },
+        "grape": {
+            "textures": "textures/items/corns/grape"
+        },
+        "wine_bottle": {
+            "textures": "textures/items/tableware/wine_bottle"
+        },
+        "brandy": {
+            "textures": "textures/items/complexfood/brandy"
+        }
+    }
+}

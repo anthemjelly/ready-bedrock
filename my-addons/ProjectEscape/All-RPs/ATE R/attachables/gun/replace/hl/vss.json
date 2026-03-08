@@ -1,0 +1,44 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:vssk",
+            "geometry": {
+                "default": "geometry.gun.vssfpp",
+                "fpp": "geometry.gun.vssfpp",
+                "scope2": "geometry.gun.scope2"
+            },
+            "textures": {
+                "default": "textures/items_3d/vss",
+                "scope_tex2": "textures/scope2"
+            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat2": "entity_emissive_alpha2"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"},
+                {"controller.render.scope2": "c.is_first_person"}
+            ],
+            "animations": {
+                "gun": "controller.animation.gun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.vss.idle",
+                "equip": "animation.vss.equip",
+                "aim": "animation.aek.ads_sights",
+                "sprint": "animation.vss.sprint",
+                "reloading": "animation.vss.reloading",
+                "fire": "animation.gunvss.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"gun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

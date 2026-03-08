@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mp550_rip_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:mp550_rip",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:mp550k","count": 1},
+    { "item": "ate:ammo919_rip","count": 5}
+    ]
+  }
+}

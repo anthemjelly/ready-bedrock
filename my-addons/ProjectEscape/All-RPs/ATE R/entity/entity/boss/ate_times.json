@@ -1,0 +1,57 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:times",
+      "materials": {
+        "default": "pillager"
+      },
+      "textures": {
+        "default": "textures/entity/ateentity/ate_times"
+      },
+      "geometry": {
+        "default": "geometry.ate_times"
+      },
+      "spawn_egg": {
+        "base_color": "#EA9A51",
+        "overlay_color": "#FF0909"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ],
+        "animate": [
+          "pillager_root_controller"
+        ]
+      },
+      "animations": {
+        "humanoid_base_pose": "animation.ate_times.base_pose",
+        "look_at_target_default": "animation.ate_times.look_at_target.default",
+        "look_at_target_gliding": "animation.ate_times.look_at_target.gliding",
+        "look_at_target_swimming": "animation.ate_times.look_at_target.swimming",
+        "move": "animation.ate_times.move",
+        "riding.arms": "animation.ate_times.riding.arms",
+        "riding.legs": "animation.ate_times.riding.legs",
+        "holding": "animation.ate_times.holding",
+        "attack.rotations": "animation.ate_times.attack.rotations",
+        "bob": "animation.ate_times.bob",
+        "crossbow_hold": "animation.ate_times.crossbow.hold",
+        "crossbow_charge": "animation.ate_times.crossbow.charge",
+        "celebrating": "animation.ate_times.celebrating",
+        "controller_humanoid_base_pose": "controller.animation.ate_times.base_pose",
+        "controller_look_at_target": "controller.animation.ate_times.look_at_target",
+        "controller_move": "controller.animation.ate_times.move",
+        "controller_riding": "controller.animation.ate_times.riding",
+        "controller_attack": "controller.animation.ate_times.attack",
+        "controller_bob": "controller.animation.ate_times.bob",
+        "controller_pillager_attack": "controller.animation.ate_times.attack",
+        "pillager_root_controller": "controller.animation.ate_times.root"
+      },
+      "render_controllers": [
+        "controller.render.pillager"
+      ],
+      "enable_attachables": true,
+      "hide_armor": true
+    }
+  }
+}

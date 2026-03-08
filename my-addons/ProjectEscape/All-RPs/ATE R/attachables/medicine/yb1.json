@@ -1,0 +1,42 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:yb1",
+            "geometry": {
+                "default": "geometry.yb1",
+                "fpp": "geometry.yb1"
+            },
+            "textures": {
+                "default": "textures/items/medicine/yb1"
+            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.ate_s_x": "c.is_first_person"
+                },
+                {
+                    "controller.render.ate_s_x2": "!c.is_first_person"
+                }
+            ],
+            "animations": {
+                "equip": "animation.yb1.equip",
+                "use": "animation.yb1.use",
+                "yb": "controller.animation.yb"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "yb": "c.is_first_person"
+                    },
+                    {
+                        "equip": "c.is_first_person"
+                    }
+                ]
+            }
+        }
+    }
+}

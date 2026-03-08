@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recimk1720pes_m62_d0b3e657"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "B "
+    ],
+    "key": {
+      "A": {
+        "item": "ate:mk1720k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo76251_m62",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:mk1720_m62",
+      "count": 1
+    }
+  }
+}

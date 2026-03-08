@@ -1,0 +1,42 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "ATE枪行为包,未经授权禁止用于商业用途",
+        "name": "ATE枪B包",
+        "uuid": "27265f5d-8f00-4fb4-9191-c05c94079839",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            110
+        ]
+    },
+    "modules": [
+        {
+            "description": "kmn",
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "042a5e9c-2eaa-4191-a885-5dde650a98ae",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "version": "2.2.0",
+            "module_name": "@minecraft/server"
+        },
+        {
+            "version": "2.0.0",
+            "module_name": "@minecraft/server-ui"
+        }
+    ]
+}

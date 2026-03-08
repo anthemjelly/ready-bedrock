@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ate:parasiteschicken",
+      "min_engine_version": "1.12.0",
+      "materials": {
+        "default": "chicken",
+        "legs": "chicken_legs"
+      },
+      "textures": {
+        "default": "textures/entity/ateentity/ate_parasiteschicken"
+      },
+      "geometry": {
+        "default": "geometry.ate_parasiteschicken"
+      },
+      "animations": {
+        "move": "animation.ate_parasiteschicken.move",
+        "general": "animation.ate_parasiteschicken.general",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.ate_parasiteschicken.baby_transform"
+      },
+      "scripts": {
+        "animate": [
+          "general",
+          {
+            "move": "query.modified_move_speed"
+          },
+          "look_at_target",
+          {
+            "baby_transform": "query.is_baby"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.chicken"
+      ],
+      "spawn_egg": {
+        "base_color": "#FCEFE3",
+        "overlay_color": "#FF0909"
+      }
+    }
+  }
+}

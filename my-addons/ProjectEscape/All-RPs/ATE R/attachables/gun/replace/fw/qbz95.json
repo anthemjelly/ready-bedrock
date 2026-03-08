@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:qbz95k",
+            "geometry": {
+                "default": "geometry.gun.qbz95fpp",
+                "fpp": "geometry.gun.qbz95fpp"            },
+            "textures": {
+                "default": "textures/items_3d/qbz95"            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"}            ],
+            "animations": {
+                "gun": "controller.animation.gun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.qbz95.idle",
+                "equip": "animation.qbz95.equip",
+                "aim": "animation.qbz95.ads_sights",
+                "sprint": "animation.qbz95.sprint",
+                "reloading": "animation.qbz95.reloading",
+                "fire": "animation.gunqbz95.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"gun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            }
+        }
+    }
+}

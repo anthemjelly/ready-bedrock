@@ -1,0 +1,47 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.head_visor": {
+            "geometry": "geometry.visor",
+            "materials": [
+                {
+                    "*": "Material.visor"
+                },
+                {
+                    "visor": "Material.visor"
+                }
+            ],
+            "textures": [
+                "texture.visor"
+            ]
+        },
+        "controller.render.head_nvi": {
+            "geometry": "geometry.nvi",
+            "materials": [
+                {
+                    "*": "Material.nvi"
+                },
+                {
+                    "nvi": "Material.nvi"
+                }
+            ],
+            "textures": [
+                "texture.nvi"
+            ]
+        },
+        "controller.render.head_helmet": {
+            "geometry": "geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                },
+                {
+                    "visor": "Material.default"
+                }
+            ],
+            "textures": [
+                "texture.default"
+            ]
+        }
+    }
+}

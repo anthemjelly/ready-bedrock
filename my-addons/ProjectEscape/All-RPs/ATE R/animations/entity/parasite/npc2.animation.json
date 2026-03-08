@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.npc2.idle": {
+			"loop": true,
+			"bones": {
+				"UpperBody": {
+					"rotation": [0, 0, "math.sin(-90+q.anim_time*120)"]
+				},
+				"head": {
+					"rotation": [0, 0, "-math.sin(90+q.anim_time*120)*1.5"]
+				},
+				"leftArm": {
+					"rotation": [0, 0, "-math.sin(60+q.anim_time*240)"]
+				},
+				"rightArm": {
+					"rotation": [0, 0, "math.sin(60+q.anim_time*240)"]
+				},
+				"bone10": {
+					"rotation": ["v.a.r.x", 0, 0]
+				},
+				"longhair": {
+					"rotation": ["-v.a.r.x", 0, 0]
+				},
+				"longHair": {
+					"rotation": ["-v.a.r.x", 0, 0]
+				}
+			}
+		}
+	}
+}

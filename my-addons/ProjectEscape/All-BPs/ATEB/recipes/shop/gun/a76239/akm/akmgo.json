@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rees_590akm_gold_37e0b"
+    },
+    "tags": [
+      "shop"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:akm2k",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:moneybig",
+      "count": 25
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.food.equip": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.375,
+			"bones": {
+				"gunfpp": {
+					"rotation": {
+						"0.0": {
+							"post": [18, 0, 19],
+							"lerp_mode": "catmullrom"
+						},
+						"0.25": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2917": {
+							"post": [2.99271, -0.20917, 3.99454],
+							"lerp_mode": "catmullrom"
+						},
+						"0.3333": [0, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"post": [-3.5, -8.1, 9.8],
+							"lerp_mode": "catmullrom"
+						},
+						"0.25": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2917": {
+							"post": [0.6, 0, -1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.3333": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

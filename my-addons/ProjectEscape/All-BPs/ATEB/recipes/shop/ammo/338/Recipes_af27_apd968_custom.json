@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "reci_appes_1103a752"
+    },
+    "tags": [
+      "shop"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ammo338_ap",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:money",
+      "count": 25
+    }
+  }
+}

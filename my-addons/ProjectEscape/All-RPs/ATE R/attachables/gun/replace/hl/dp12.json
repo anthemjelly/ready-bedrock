@@ -1,0 +1,49 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:dp12k",
+            "geometry": {
+                "default": "geometry.gun.dp12fpp",
+                "fpp": "geometry.gun.dp12fpp",
+                "scope": "geometry.gun.scope"
+            },
+            "textures": {
+                "default": "textures/items_3d/dp12",
+                "scope_tex": "textures/scope"
+            },
+            "materials": {
+                "default": "entity_alphatest",
+                "scope_mat": "entity_emissive_alpha"
+            },
+            "render_controllers": [
+                {"controller.render.ate_s_x": "c.is_first_person"},
+                {"controller.render.ate_s_x2": "!c.is_first_person"},
+                {"controller.render.scope": "c.is_first_person"}
+            ],
+            "animations": {
+                "semigun": "controller.animation.semigun",
+                "run": "controller.animation.run",
+                "ads": "controller.animation.ads",
+                "idle": "animation.dp12.idle",
+                "equip": "animation.dp12.equip",
+                "aim": "animation.aek.ads_sights",
+                "sprint": "animation.dp12.sprint",
+                "reloading": "animation.dp12.reloading",
+                "fire": "animation.gundp12.fire"
+            },
+            "scripts": {
+                "animate": [
+                    {"semigun": "c.is_first_person"},
+                    {"run": "c.is_first_person"},
+                    {"ads": "c.is_first_person"}
+                ]
+            },
+            "sound_effects": {
+                "fire":"gun.dp12.fire",
+                "bolt":"gun.dp12.bolt",
+                "reload":"gun.dp12.reload"
+            }
+        }
+    }
+}

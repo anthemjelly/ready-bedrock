@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pp1950_b34cc574"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:pp1950k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo919",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:pp1950",
+      "count": 1
+    }
+  }
+}

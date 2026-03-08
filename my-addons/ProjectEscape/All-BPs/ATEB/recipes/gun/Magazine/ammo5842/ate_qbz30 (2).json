@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "qbz30_5222_dvp883105"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "BB"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:qbz30k",
+        "data": 0
+      },
+      "B": {
+        "item": "ate:ammo5842_dvp88",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "ate:qbz30_dvp88",
+      "count": 1
+    }
+  }
+}

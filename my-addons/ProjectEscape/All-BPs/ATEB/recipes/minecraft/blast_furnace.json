@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:blast_furnace"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "III",
+      "IFI",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:cobblestone"
+      },
+  	"I": {
+        "item": "minecraft:flint"
+      },
+  	"F": {
+        "item": "minecraft:clay_ball"
+      }
+    },
+    "result": {
+      "item": "minecraft:blast_furnace"
+    }
+  }
+}

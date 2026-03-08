@@ -1,0 +1,89 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "ate:clothes",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "despawn": {
+                "minecraft:instant_despawn": {},
+                "minecraft:spawn_entity": {
+                    "entities": {
+                        "min_wait_time": 0,
+                        "max_wait_time": 0,
+                        "num_to_spawn": 1,
+                        "single_use": true
+                    }
+                }
+            }
+        },
+        "components": {
+            "minecraft:body_rotation_axis_aligned": {},
+            "minecraft:breathable": {
+                "total_supply": 15,
+                "suffocate_time": -20,
+                "inhale_time": 0,
+                "breathes_air": true,
+                "breathes_water": true,
+                "breathes_lava": false,
+                "breathes_solids": true,
+                "generates_bubbles": true
+            },
+            "minecraft:health": {
+                "value": 1070,
+                "max": 1070
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "on_damage": {
+                            "filters": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "damager",
+                                    "operator": "not",
+                                    "value": "sb"
+                                }
+                            ]
+                        },
+                        "deals_damage": "no"
+                    }
+                ]
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 2
+            },
+            "minecraft:is_stackable": {},
+            "minecraft:movement": {
+                "value": 0,
+                "max": 0
+            },
+            "minecraft:scale": {
+                "value": 1
+            },
+            "minecraft:inventory": {
+                "inventory_size": 27,
+                "container_type": "container"
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "block",
+                    "shop"
+                ]
+            },
+            "minecraft:physics": {}
+        },
+        "events": {}
+    }
+}

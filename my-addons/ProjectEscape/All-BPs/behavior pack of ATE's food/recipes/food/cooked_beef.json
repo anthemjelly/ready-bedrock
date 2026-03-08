@@ -1,0 +1,13 @@
+{
+  "format_version": "1.17.41",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "ate:cooked_beef"
+    },
+    "tags": [ "furnace",  "smoker", "campfire", "soul_campfire" ],
+    "input": "ate:beef",
+    "output": {
+      "item": "ate:cooked_beef"
+    }
+  }
+}

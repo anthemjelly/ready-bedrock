@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:carrot_and_potato_cake"
+    },
+    "tags": [ "pot" ],
+    "pattern": [ "DCP", "CP"],
+    "key": {
+      "D": {
+        "item": "ate:wheat_dough"
+      },
+      "P": {
+        "item": "ate:shredded_potato"
+      },
+      "C": {
+        "item": "ate:shredded_carrot"
+      }
+    },
+    "result": [
+      {
+        "item": "ate:carrot_and_potato_cake"
+      }
+      
+    ]
+  }
+}

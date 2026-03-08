@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ak7460_7n39_c130a258"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "ate:ak7460_7n39",
+        "data": 0
+      }
+    },
+    "result": [
+    { "item": "ate:ak7460k","count": 1},
+    { "item": "ate:ammo54539_7n39","count": 6}
+    ]
+  }
+}

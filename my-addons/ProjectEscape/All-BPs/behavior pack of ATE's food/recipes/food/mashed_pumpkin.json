@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ate:mashed_pumpkin"
+    },
+    "tags": [
+      "pot"
+    ],
+    "pattern": [
+      "PP","PP"
+    ],
+    "key": {
+      "P": {
+        "item": "ate:pumpkin_chunks"
+      }
+    },
+    "result": [
+      {
+        "item": "ate:mashed_pumpkin"
+      }
+    ]
+  }
+}

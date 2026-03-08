@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "ate:ph_4_3a",
+            "materials": {
+                "default": "entity_alphatest",
+                "visor": "entity_alphablend"
+            },
+            "textures": {
+                "default": "textures/egg/h_4_3",
+                "visor": "textures/egg/visor"
+            },
+            "geometry": {
+                "default": "geometry.ate_helmet",
+                "visor": "geometry.ate_visor"
+            },
+            "scripts": {
+                "animate": [
+                    "offset"
+                ]
+            },
+            "animations": {
+                "offset": "animation.armor.helmet.offset"
+            },
+            "render_controllers": [
+                "controller.render.head_helmet",
+                "controller.render.head_visor"
+            ]
+        }
+    }
+}

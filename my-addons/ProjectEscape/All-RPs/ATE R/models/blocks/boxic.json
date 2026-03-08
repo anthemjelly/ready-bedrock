@@ -1,0 +1,43 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ate_boxic1",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "bush",
+					"pivot": [0, -0.6, -7.6],
+					"cubes": [
+						{"origin": [-7.8, 13.8, -8], "size": [10, 9, 4], "uv": [0, 21]},
+						{"origin": [4, -8, -8], "size": [6, 6, 3], "pivot": [7, 5.2, -6.75], "rotation": [0, 0, 90], "uv": [32, 9]},
+						{"origin": [-5.7, 7.8, -8], "size": [5, 5, 2], "uv": [30, 42]},
+						{"origin": [5, -12, -8], "size": [4, 4, 2], "pivot": [7, 5.2, -6.75], "rotation": [0, 0, 90], "uv": [16, 34]},
+						{"origin": [2.2, 15.8, -8], "size": [9, 6, 3], "pivot": [5.1, 17.8, -6.5], "rotation": [0, 0, 90], "uv": [32, 0]},
+						{"origin": [-6, -0.7, -8], "size": [16, 21, 0], "pivot": [1, 8.3, -7.999], "rotation": [0, 180, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "bush",
+					"pivot": [2.9, 6.5, -12.6],
+					"cubes": [
+						{"origin": [-3, 6.5, -5], "size": [8, 5, 0.1], "pivot": [0.5, 6.5, -5], "rotation": [-148, 0, 90], "uv": [44, 39]},
+						{"origin": [0.5, 2, -8], "size": [9, 8, 3], "uv": [28, 21]},
+						{"origin": [6, 6.5, -5], "size": [8, 5, 0.1], "pivot": [9.5, 6.5, -5], "rotation": [-39, 0, 90], "uv": [14, 42]},
+						{"origin": [3.2, 5.4, -7.9], "size": [6, 4, 2], "uv": [0, 34]},
+						{"origin": [1.5, 5, -6.2], "size": [4, 5, 3], "inflate": -0.8, "pivot": [3.7, 4.1, -6.5], "rotation": [0, -90, 0], "uv": [0, 40]},
+						{"origin": [5.7, -2.7, -8.7], "size": [4, 7, 3], "inflate": -0.8, "pivot": [7.2, 4.3, -6.75], "rotation": [0, 0, 90], "uv": [28, 32]},
+						{"origin": [5.7, 3, -8.7], "size": [4, 4, 3], "inflate": -0.8, "pivot": [7.2, 4.3, -6.75], "rotation": [0, 0, 90], "uv": [42, 32]}
+					]
+				}
+			]
+		}
+	]
+}

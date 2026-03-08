@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ate:potato_starch",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
+      }
+    },
+    "components": {
+      "minecraft:compostable": {
+        "composting_chance": 60
+      },
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 64,
+      "minecraft:glint": false,
+      "minecraft:allow_off_hand": false,
+      "minecraft:icon": "potato_starch"
+    }
+  }
+}
