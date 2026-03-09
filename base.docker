@@ -4,4 +4,6 @@ RUN mkdir -p /data \
     && chown -R 10001:10001 /data \ 
     && chmod 755 /data
 
+RUN apt update && apt install -y screen
+
 WORKDIR /data

@@ -7,13 +7,11 @@ services:
       dockerfile: base.docker
     container_name: mc-bedrock-dev
     ports:
-      - "19133:19133/udp"
+      - "19140:19140/udp"
     # 开发环境：全读写挂载，修改Addon/配置实时生效
     volumes:
       - ../worlds:/data/worlds
-      - ../addons:/data/behavior_packs
-      - ../addons:/data/resource_packs
-      - ../server.properties:/data/server.properties
+      - ./server.properties:/data/server.properties
       - ../backups:/data/backups
     # 开发环境核心配置
     environment:
@@ -32,6 +30,10 @@ services:
       - SKIP_DOWNLOAD_COMPARE=true
       - SKIP_BACKUP=true
 
+      - SERVER_PORT=19140
+
+    stdin_open: true
+    tty: true 
     restart: unless-stopped
     # 开发环境：简化日志，不限制资源
     logging:

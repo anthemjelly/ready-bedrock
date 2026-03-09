@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: base.docker
-    container_name: mc-bedrock-production
+    container_name: mc-bedrock-prod
     ports:
       - "19132:19132/udp"
     volumes:
@@ -30,7 +30,8 @@ services:
       - SKIP_BACKUP=true
 
       - ALLOW_LIST=false
-
+    stdin_open: true
+    tty: true 
     restart: unless-stopped
     deploy:
       resources:
