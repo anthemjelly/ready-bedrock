@@ -108,4 +108,4 @@ docker-compose -f .devcontainer/docker-compose.dev.yml down
 ---
 
 ## 📝 授權條款
-本專案採用開源授權，詳細規範請參閱 `LICENSE` 檔案。
+本項目採用  GNU GENERAL PUBLIC LICENSE 許可證 - 詳見 [LICENSE](LICENSE) 文件

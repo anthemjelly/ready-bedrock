@@ -1,6 +1,6 @@
 {
     "name": "MC基岩版Addon開發環境",
-    "dockerComposeFile": "compose.yml",
+    "dockerComposeFile": "compose-dev.yml",
     "service": "mc-server",
     "workspaceFolder": "/data",
     "customizations": {

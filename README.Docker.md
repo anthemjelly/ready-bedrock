@@ -114,4 +114,4 @@ docker exec mc-bedrock-production list
 ---
 
 ## 📝 授權條款
-詳見 `LICENSE` 檔案
+本項目採用  GNU GENERAL PUBLIC LICENSE 許可證 - 詳見 [LICENSE](LICENSE) 文件

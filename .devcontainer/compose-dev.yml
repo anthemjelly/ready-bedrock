@@ -1,0 +1,41 @@
+﻿name: ready-bedrock-dev
+
+services:
+  mc-server:
+    build:
+      context: ..
+      dockerfile: base.docker
+    container_name: mc-bedrock-dev
+    ports:
+      - "19133:19133/udp"
+    # 开发环境：全读写挂载，修改Addon/配置实时生效
+    volumes:
+      - ../worlds:/data/worlds
+      - ../addons:/data/behavior_packs
+      - ../addons:/data/resource_packs
+      - ../server.properties:/data/server.properties
+      - ../backups:/data/backups
+    # 开发环境核心配置
+    environment:
+      - UID=10001
+      - GID=10001
+      - EULA=TRUE
+      - ONLINE_MODE=false
+      - ALLOW_CHEATS=true
+      - SERVER_NAME=我的開發測試服
+      - MAX_PLAYERS=10
+      - DIFFICULTY=hard
+      - LEVEL_NAME=Dev_World
+      - AUTO_LEVEL_CREATE=true
+
+      - VERSION=1.26.3.1
+      - SKIP_DOWNLOAD_COMPARE=true
+      - SKIP_BACKUP=true
+
+    restart: unless-stopped
+    # 开发环境：简化日志，不限制资源
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
