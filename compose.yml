@@ -6,6 +6,9 @@ services:
       context: .
       dockerfile: base.docker
     container_name: mc-bedrock-prod
+    user: "10001:10001"
+    stdin_open: true
+    tty: true 
     ports:
       - "19132:19132/udp"
     volumes:
@@ -30,8 +33,8 @@ services:
       - SKIP_BACKUP=true
 
       - ALLOW_LIST=false
-    stdin_open: true
-    tty: true 
+      - OPS=2535456335660300
+
     restart: unless-stopped
     deploy:
       resources:

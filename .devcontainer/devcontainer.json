@@ -3,6 +3,7 @@
     "dockerComposeFile": "compose.yml",
     "service": "mc-server",
     "workspaceFolder": "/data",
+    "remoteUser": "root",
     "customizations": {
         "vscode": {
             "extensions": [

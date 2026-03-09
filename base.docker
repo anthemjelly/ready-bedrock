@@ -1,9 +1,12 @@
 FROM itzg/minecraft-bedrock-server:latest
 
-RUN mkdir -p /data \
-    && chown -R 10001:10001 /data \ 
+RUN apt update && apt install -y screen --no-install-recommends \
+    && apt clean \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN chown -R 10001:10001 /data \ 
     && chmod 755 /data
 
-RUN apt update && apt install -y screen
+USER 10001
 
 WORKDIR /data

@@ -6,6 +6,9 @@ services:
       context: ..
       dockerfile: base.docker
     container_name: mc-bedrock-dev
+    user: "10001:10001"
+    stdin_open: true
+    tty: true 
     ports:
       - "19140:19140/udp"
     # 开发环境：全读写挂载，修改Addon/配置实时生效
@@ -31,9 +34,8 @@ services:
       - SKIP_BACKUP=true
 
       - SERVER_PORT=19140
+      - OPS=2535456335660300
 
-    stdin_open: true
-    tty: true 
     restart: unless-stopped
     # 开发环境：简化日志，不限制资源
     logging:
