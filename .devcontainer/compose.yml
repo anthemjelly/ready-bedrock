@@ -14,7 +14,15 @@ services:
     # 开发环境：全读写挂载，修改Addon/配置实时生效
     volumes:
       - ../worlds:/data/worlds
-      - ./server.properties:/data/server.properties
+      - ../server-dev.properties:/data/server.properties
+      - ../my-addons/project-1/project-1-bp:/data/development_behavior_packs/project-1-bp
+      - ../my-addons/project-1/project-1-rp:/data/development_resource_packs/project-1-rp
+      - ../my-addons/project-2/project-2-bp:/data/development_behavior_packs/project-2-bp
+      - ../my-addons/project-2/project-2-rp:/data/development_resource_packs/project-2-rp
+      - ../my-addons/project-3/project-3-bp:/data/development_behavior_packs/project-3-bp
+      - ../my-addons/project-3/project-3-rp:/data/development_resource_packs/project-3-rp
+      - ../my-addons/project-4/project-4-bp:/data/development_behavior_packs/project-4-bp
+      - ../my-addons/project-4/project-4-rp:/data/development_resource_packs/project-4-rp
       - ../backups:/data/backups
     # 开发环境核心配置
     environment:

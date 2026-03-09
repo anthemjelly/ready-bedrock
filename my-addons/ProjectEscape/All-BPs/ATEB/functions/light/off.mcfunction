@@ -1,1 +1,0 @@
-execute as @e at @s run fill ~4~4~4~-4~-4~-4 air replace light_block_15 

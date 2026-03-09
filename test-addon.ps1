@@ -1,11 +1,12 @@
 <#
 .SYNOPSIS
 Minecraft Bedrock Addon 快速測試腳本（Docker 專用）
+這個腳本用不了
 #>
 
 # ==================== 設定 ====================
 $AddonName = "vault-inventory"  # 你的 Addon 資料夾名稱
-$ContainerName = "mc-bedrock-production"
+$ContainerName = "mc-bedrock-prod"
 $AddonPath = "./addons/$AddonName"
 $ManifestPath = "$AddonPath/manifest.json"
 $ScriptPath = "$AddonPath/scripts/main.js"
